@@ -1,0 +1,1077 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="Bs*V/Q5wW/A}e6|cCv2T" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="TOP"></mutation>
+    <field name="NAME">excel_rows</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">TOP</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="GP)m-x=RoPuA_o(AoPo6">
+        <field name="INPUTNAME">SHEET</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="L:/Tb~?HxPkMo%P,aS|k">
+            <field name="TEXT">Для каждой</field>
+            <next>
+              <block type="field_variable" id="(,K)F;plA?MMMi9Q?;s.">
+                <field name="TEXT">row</field>
+                <field name="FIELDNAME">ROW</field>
+                <next>
+                  <block type="field_static" id="KlZO5Nq|S$vAwTlKst3M">
+                    <field name="TEXT">листа</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="@R#}R3WgH@ZB]Zy=,9ZL"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="!O7$3gJ^Q,jYW49`cfps">
+            <field name="INPUTNAME">FILE</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="}ER1CmLu0I]rPr:eO+dD">
+                <field name="TEXT">EXCEL файла на FTP</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="UH89k`kO|gPItZrbtF)w"></shadow>
+            </value>
+            <next>
+              <block type="input_statement" id="%GR@=DT=6d;C*hKl1X=S">
+                <field name="INPUTNAME">DO</field>
+                <field name="ALIGN">LEFT</field>
+                <value name="TYPE">
+                  <shadow type="type_null" id="VPg{3F0Bz%Yuy-Aw4MJH"></shadow>
+                </value>
+                <next>
+                  <block type="input_dummy" id="GXO]dlX4oHj./Vyah7|g">
+                    <field name="ALIGN">LEFT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="TXVlWTmA$~n_IY9L5Ji6">
+                        <field name="TEXT">Имена полей в 1 строке</field>
+                        <next>
+                          <block type="field_checkbox" id="ZiaZb~2%Ug.(^Cek%p)O">
+                            <field name="CHECKED">FALSE</field>
+                            <field name="FIELDNAME">FIRST_ROW_IS_HEADER</field>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="+J0go|KMrA!yN4~##75{" deletable="false" movable="false">
+        <field name="TEXT">Построчно итерируется по указанному листу в excel файле. BlockType: excel_rows</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="}KLZK;bOecx1K;hl43a~" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/c0318749-2423-460e-acc6-b6ae77ec6693</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="rr@f:]=m=MvCBo7tF-Qq"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="fmx::z,wN1ofs@gu42G[">
+        <mutation colour="#9fa55b"></mutation>
+        <field name="HUE">65</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="Bs*V/Q5wW/A}e6|cCv2T" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">excel_sheets</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="GXO]dlX4oHj./Vyah7|g">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="TXVlWTmA$~n_IY9L5Ji6">
+            <field name="TEXT">Получить список листов</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="!O7$3gJ^Q,jYW49`cfps">
+            <field name="INPUTNAME">FILE</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="}ER1CmLu0I]rPr:eO+dD">
+                <field name="TEXT">EXCEL файла на FTP</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="UH89k`kO|gPItZrbtF)w"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="+J0go|KMrA!yN4~##75{" deletable="false" movable="false">
+        <field name="TEXT">Возвращает список листов excel файла. BlockType: excel_sheets</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="}KLZK;bOecx1K;hl43a~" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/acc41d42-1ad0-4cc5-962b-237e91d9ba00</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="Gs*uYJMDwqNfewCu;E,V"></shadow>
+      <block type="type_list" id="1|RYp|)$T/ZN5X+]na4m"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="a^jQSjQ(1sKN*{)V@{rX">
+        <mutation colour="#9fa55b"></mutation>
+        <field name="HUE">65</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="VVjH$mV5IIp5lF4#YB%G" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">ftp_file_save</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="uhTy~-r(]+/fJw$SalY~">
+        <field name="INPUTNAME">FILEPATH</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oyx]B{iczS{.zjqz@z[0">
+            <field name="TEXT">Загрузить файл на FTP</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="}$RJ=?90z9[x#;:dh6}R"></shadow>
+        </value>
+        <next>
+          <block type="input_dummy" id="y(D1Jf)mhJ:lA(Um+3/;">
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="AYgT=~8G.U|$M#;x6f5B">
+                <field name="TEXT">Заменять существующий</field>
+                <next>
+                  <block type="field_checkbox" id="|}|?G4(2`!ow2KT*!WLb">
+                    <field name="CHECKED">TRUE</field>
+                    <field name="FIELDNAME">REPLACE</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="9[z*7HKzJCMr?3E9)@c-" deletable="false" movable="false">
+        <field name="TEXT">Модуль подключается к FTP загружает на него указанный файл. Возвращает True в случае успеха. BlockType: ftp_file_save</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="5Cio6I-J:wr*T+uSJ9=J" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/8c5ec644-2cf5-4d7b-81f0-6f583214ca16</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="rRH*s|B2p4uKlO21-io/"></shadow>
+      <block type="type_boolean" id="AZ+U+Pu?pbfx?uj9~}-~"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=",*@O_EnDUNZTNSoF2H76">
+        <mutation colour="#a5a55b"></mutation>
+        <field name="HUE">60</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="!Zfs*)(Zwm1[7;K;5oL?" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">ftp_file_delete</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="UVu%B2OuvZq!pYH)Kd7/">
+        <field name="INPUTNAME">FILEPATH</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="^0fO=kbPa_H6@HyE}wjo">
+            <field name="TEXT">FTP удалить файл</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="Jx$?(eGP]@5ObsNOXc[L"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vhCHS(,gR*/RNjrlB6/E" deletable="false" movable="false">
+        <field name="TEXT">Удаляет указанный файл с FTP. Возвращает true в случае успеха. BlockType: ftp_file_delete</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="A*2y1HT5,3NT^C(?H-u=" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/3fa9e47a-0079-4ec4-962c-594175574cd1</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id=":orX,[0=SxXduB2F}XDl"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="b^|^=]qSrVH^4^dp/a]("></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="-RXg3uZHt(HsA$LHE{/=">
+        <mutation colour="#9fa55b"></mutation>
+        <field name="HUE">65</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="8I8lk@D01^U0bk_5nVEW" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">ftp_file_open_json</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="wVo:cfZuabl-WE-Zmd]+">
+        <field name="INPUTNAME">FILENAME</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="fo{D_][oCgusn3yE?oBs">
+            <field name="TEXT">Прочитать json файл с FTP</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="N9~u:,N17u3/;9F~SK{1"></shadow>
+        </value>
+        <next>
+          <block type="input_dummy" id="mr6RzVQKhH8NjKbP1~8C">
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="o^uyo1c,.2=N5:5bwu0G">
+                <field name="TEXT">Кодировка файла</field>
+                <next>
+                  <block type="field_dropdown" id="OY5dx(/]hzN*ckJTwm9,">
+                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <field name="FIELDNAME">ENCODING</field>
+                    <field name="USER0">utf-8</field>
+                    <field name="CPU0">utf-8</field>
+                    <field name="USER1">utf-16</field>
+                    <field name="CPU1">utf-16</field>
+                    <field name="USER2">cp1251</field>
+                    <field name="CPU2">cp1251</field>
+                    <field name="USER3">cp1252</field>
+                    <field name="CPU3">cp1252</field>
+                    <field name="USER4">ascii</field>
+                    <field name="CPU4">ascii</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="+K5JMAd/DI9_U%df/YyS" deletable="false" movable="false">
+        <field name="TEXT">Представляет json файл как объект и возвращает объект. В случае ошибки - возвращает None. BlockType: ftp_file_open_json</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="upMb|8oL%N{ypkIP%cw~" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/80ae3d41-af3f-433a-8d70-b64198f83a31</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="LHfI4$XXo[u9{mYj;(8k"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="9%kX@f5m]++dKTI_nnmU">
+        <mutation colour="#a5a55b"></mutation>
+        <field name="HUE">60</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="uz@^9`YaV%F:|PtQSE=#" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">ftp_file_open_text</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="[[8?(J,@OZf0#O5.fS%z">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="xX0y}R)_*!$e|?n@IlrH">
+            <field name="TEXT">Прочитать текстовый файл с FTP</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="0gghDW5GsLsqq|CQ(f.2">
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="g#(QY0_6WQpG?lNMY#.z">
+                <field name="TEXT">Кодировка файла</field>
+                <next>
+                  <block type="field_dropdown" id="3AQ.JkKf{s[1)-qf7POY">
+                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <field name="FIELDNAME">ENCODING</field>
+                    <field name="USER0">utf-8</field>
+                    <field name="CPU0">utf-8</field>
+                    <field name="USER1">utf-16</field>
+                    <field name="CPU1">utf-16</field>
+                    <field name="USER2">cp1251</field>
+                    <field name="CPU2">cp1251</field>
+                    <field name="USER3">cp1252</field>
+                    <field name="CPU3">cp1252</field>
+                    <field name="USER4">ascii</field>
+                    <field name="CPU4">ascii</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="input_value" id="`9qAF88OgfRV2Wgv;[P)">
+                <field name="INPUTNAME">FILENAME</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="Y7c%@40E#]#biG$ex*i3">
+                    <field name="TEXT">for</field>
+                    <next>
+                      <block type="field_variable" id="m-KfXfhfvWX|X@+wjWaJ">
+                        <field name="TEXT">line</field>
+                        <field name="FIELDNAME">VAR</field>
+                        <next>
+                          <block type="field_static" id="A}778:(,DC#|5oW8h,A(">
+                            <field name="TEXT">in file</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="@XQJHuhN;ky~@WsfJO9@"></shadow>
+                </value>
+                <next>
+                  <block type="input_statement" id="l#6JK=j~~JJDEXnDra}o">
+                    <field name="INPUTNAME">DO</field>
+                    <field name="ALIGN">LEFT</field>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="O:Z2enV=Je|?^^bq+bBv"></shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="h~kfbjozOe_hW;;s0Hgd" deletable="false" movable="false">
+        <field name="TEXT">Построчно читает содержимое csv файла с FTP. Принимает список файлов, возвращает список строк файла. BlockType: ftp_file_open_text</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="z}g3*#f.Lf,G2g$)c[6H" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/b7f4e2d6-20c2-4d56-a70d-5e343c1ac038</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="s,1_]lX5WYV3}2Facr7("></shadow>
+      <block type="type_list" id="h-=`AgDAHbWJ(/0suDIZ"></block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="Z#Fp6yEo*twmj1c,0FDY"></shadow>
+      <block type="type_list" id="Al-~ZV`?G,pZGpZ$fOT;"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="((q(4|+bkf},h}zM8Y3w">
+        <mutation colour="#a5a55b"></mutation>
+        <field name="HUE">60</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="?(1KjauFU+o$HbTJaB]," deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">ftp_file_open_csv</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="-RDjGYENcT+sdO?dWmeg">
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="-O;IbDr=m|5o4-g9LcGC">
+            <field name="TEXT">Прочитать csv файл с FTP</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="G$y9w#0RuxU1II6shE%m">
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="EDsU|ScuO9#y-RD-Pgz?">
+                <field name="TEXT">Кодировка файла</field>
+                <next>
+                  <block type="field_dropdown" id="Z/~v4vg-eJhsdq0%^CcU">
+                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <field name="FIELDNAME">ENCODING</field>
+                    <field name="USER0">utf-8</field>
+                    <field name="CPU0">utf-8</field>
+                    <field name="USER1">utf-16</field>
+                    <field name="CPU1">utf-16</field>
+                    <field name="USER2">cp1251</field>
+                    <field name="CPU2">cp1251</field>
+                    <field name="USER3">cp1252</field>
+                    <field name="CPU3">cp1252</field>
+                    <field name="USER4">ascii</field>
+                    <field name="CPU4">ascii</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="input_dummy" id="xgJQP`zDP6%Vu9BjY[%:">
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="f?GMX.NBN:p(7v8@yN$^">
+                    <field name="TEXT">Разделитель значений</field>
+                    <next>
+                      <block type="field_input" id="|2x|/40:)pfo#rEtxIgp">
+                        <field name="TEXT">;</field>
+                        <field name="FIELDNAME">DELIMITER</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="input_value" id="~CchZZyHrty5C(TVFT%U">
+                    <field name="INPUTNAME">FILENAME</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="Nwfa!W!Q!;kPn2)a(Xqt">
+                        <field name="TEXT">for</field>
+                        <next>
+                          <block type="field_variable" id="4kB|x42Gq0HG~SmVAs](">
+                            <field name="TEXT">line</field>
+                            <field name="FIELDNAME">VAR</field>
+                            <next>
+                              <block type="field_static" id="}Z]j7RXW1-;c5V]gG%!i">
+                                <field name="TEXT">in file</field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="z0Q1q25SQfeaDCH9^rIG"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_statement" id="?Y$#]1B%jN@}+(`2N2N=">
+                        <field name="INPUTNAME">DO</field>
+                        <field name="ALIGN">LEFT</field>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="fHH?!+3zLwxRL`/01)~h"></shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="N?MoZDNq7=KhB/ov!hxt" deletable="false" movable="false">
+        <field name="TEXT">Построчно читает содержимое csv файла с FTP. Принимает список файлов, возвращает список строк файла. BlockType: ftp_file_open_csv</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="+8DwI:NKA2~KL|e8UgMI" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/c30de8ad-b29e-4d01-9e34-9b35a060f8f4</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="f)fEGES,8ROq(H?fR]Y."></shadow>
+      <block type="type_list" id="LtqY;.Hih@zO9pbra88l"></block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="`qhzem6=J.,5;GI6a}+1"></shadow>
+      <block type="type_list" id="]X%Mk]L}T|fhx,$kl?u4"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="MD{{n7`8H0wUlM2*}DDU">
+        <mutation colour="#a5a55b"></mutation>
+        <field name="HUE">60</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="]+4Pb.,g6:qSc2r{q{ru" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">ftp_file_list</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id=",TCn!Acff2_JCgj];To{">
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="7z2{!jqi{)9*]Q?X7e,x">
+            <field name="TEXT">FTP Получить список файлов </field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="@`j[:[AwioOimkj/oE2q">
+            <field name="INPUTNAME">FILTER</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=".BJ_v*rZK27C*EHO)NK{">
+                <field name="TEXT">Маска</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="l_#nccP/m?V~*|g/x9+{"></shadow>
+              <block type="type_string" id="{X-[Q*/7n__R*CiMu1QJ"></block>
+            </value>
+            <next>
+              <block type="input_value" id="O53{s=[c/[9fs-ENcQCh">
+                <field name="INPUTNAME">ROOT</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="]I|MC5ZZFfIE}()gKQ8Z">
+                    <field name="TEXT">Каталог</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id=".$3%IHUKyAI1OU5kkPQi"></shadow>
+                  <block type="type_string" id="|wknMpXFF@|J?[Bu/u$6"></block>
+                </value>
+                <next>
+                  <block type="input_dummy" id="2w=f%xCtrHJxfO_hcuV!">
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="=*Idj(9|[$r)m/d/N9H8">
+                        <field name="TEXT">Сортировка</field>
+                        <next>
+                          <block type="field_dropdown" id="x0UnT$]M4|_jI~Q.a#9+">
+                            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                            <field name="FIELDNAME">SORTING</field>
+                            <field name="USER0">По имени</field>
+                            <field name="CPU0">NAME</field>
+                            <field name="USER1">Сначала новые</field>
+                            <field name="CPU1">NEW</field>
+                            <field name="USER2">Сначала старые</field>
+                            <field name="CPU2">OLD</field>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="1S)hM;~A{+?wHX|6J{#e" deletable="false" movable="false">
+        <field name="TEXT">Модуль подключается к FTP и получает список всех файлов. Всегда возвращает список, если файлов нет - вернется пустой список. BlockType: ftp_file_list</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="Rg$Kmx4Nr`5F6nUpdm`n" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/187b892c-799a-4579-8868-70903c6347c6</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="jRw]U1n.#XArD--.b7]D"></shadow>
+      <block type="type_list" id=";,Tn-UQ?qob0Q|l|6a0T"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".@[pM$`9a.#,*XE0K)x;">
+        <mutation colour="#9fa55b"></mutation>
+        <field name="HUE">65</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="vj*b=u;frmK04sjvRT{w" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">ftp_file_save_csv</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="PD$u.X(uvg8^%h(a9G+c">
+        <field name="INPUTNAME">FILEPATH</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$gZu;Zc|QzJx_L(0-IcQ">
+            <field name="TEXT">Сохранить csv-файл на FTP</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="L=cr%x(4N$pRJGJ`/ejG"></shadow>
+          <block type="type_string" id="#hl6rM_.|9[edg17OT!/"></block>
+        </value>
+        <next>
+          <block type="input_value" id="/(M#KYv-UrX]j`)m!bbW">
+            <field name="INPUTNAME">HEADERS</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="gOauuNq-qk(Q%JP8M8gP">
+                <field name="TEXT">Заголовки</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="N5w?#,zQ#u$[QjiCd85?"></shadow>
+              <block type="type_list" id="Ie-QPF0;cfvhd!q-areB"></block>
+            </value>
+            <next>
+              <block type="input_value" id="oaMIGd$$h8ltP~Z)U}.~">
+                <field name="INPUTNAME">DATA</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="mi2u}`V}nMS=6|.Zcca,">
+                    <field name="TEXT">Данные</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null"></shadow>
+                  <block type="type_list" id="4YAAWRG^%fKXw,EnVfux"></block>
+                </value>
+                <next>
+                  <block type="input_dummy" id="sB(9WiCQd%B(V8WWXCRn">
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="z8dICHDP@E]{lv)ma7RM">
+                        <field name="TEXT">Разделитель</field>
+                        <next>
+                          <block type="field_dropdown" id="$+*n+5j[mu;_7bi]6@D4">
+                            <mutation options="[&quot;text&quot;,&quot;text&quot;]"></mutation>
+                            <field name="FIELDNAME">DELIMITER</field>
+                            <field name="USER0">;</field>
+                            <field name="CPU0">SEMICOLON</field>
+                            <field name="USER1">,</field>
+                            <field name="CPU1">COMMA</field>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Mc5dX%`!`U*R]9|1TV%;" deletable="false" movable="false">
+        <field name="TEXT">Модуль подключается к FTP, создает csv файл. Возвращает True в случае успеха. BlockType: ftp_file_save_csv</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id=".NhlK$z!8D)RSRLRX9HT" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/8f915a91-8973-43a4-ac67-a74032a1799e</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="ttmPv,=fUUN)v+Y@,)Lj"></shadow>
+      <block type="type_boolean" id=":H`A9r+avb006:WZ3b*x"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="x2[A?uIvI8fwzq!,7q/,">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="kdxh3%vED*7Dg,|}}G2X" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">ftp_file_move_or_copy</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="3!BJ];7IqHk2A*`+sj4@">
+        <field name="INPUTNAME">SRC</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="p}dPebpJ/DEJYf8*%xVR">
+            <field name="TEXT">FTP </field>
+            <next>
+              <block type="field_dropdown" id="=$@/8066n3K|sV=~w6BC">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">COPY</field>
+                <field name="USER0">переместить</field>
+                <field name="CPU0">FALSE</field>
+                <field name="USER1">скопировать</field>
+                <field name="CPU1">TRUE</field>
+                <next>
+                  <block type="field_static" id="(_Lf(mS~1ORkttN@tIa|">
+                    <field name="TEXT">файл</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="0`8mlTPUJDtKVO2K!Heu"></shadow>
+          <block type="type_string" id="#7SVs1`C_gljzF,Ta*dK"></block>
+        </value>
+        <next>
+          <block type="input_value" id="UpvFJV_@3,hfxGd|7[(V">
+            <field name="INPUTNAME">DEST</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=";}IKPUz!E$}R1VGmzjsx">
+                <field name="TEXT">куда</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null"></shadow>
+              <block type="type_string" id="]1`0-G{c~2|($557A76b"></block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="AX6g/vBL$Dsesp%zRUIq" deletable="false" movable="false">
+        <field name="TEXT">Модуль подключается к FTP и копирует или перемещает указанный файл. Возвращает True в случае успеха. BlockType: ftp_file_move_or_copy</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="y7Pen[@3;TswsAs`y61|" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/3ad334be-427e-4542-9ead-940147d8dea9</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="zvI2Xi]KYZ%^0ZCU]v[M"></shadow>
+      <block type="type_boolean" id="/FqRx|l-*lK0]Ym0g3oL"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="B|3`]a,(qwKqdy{nW{.[">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=";WnQ[MNwYN@x`[,bQ22v" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">ftp_file_write</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="hDL2NF|x(oZ-|KBG$/6,">
+        <field name="INPUTNAME">FILEPATH</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="LX44)!+hse9{)[2L2yJm">
+            <field name="TEXT">Записать на FTP файл</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="Lx;}tFACwF+uJjkUGVXC"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="Jm6alr(Pt/yD@un0.4z!">
+            <field name="INPUTNAME">DATA</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="7e/{BzJbie,3hY)y%`pj">
+                <field name="TEXT">с содержимым</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="{HS-q]2rf-aRnV:K`I3~"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="=l?w].h0;l/*wiC85_yP" deletable="false" movable="false">
+        <field name="TEXT">Модуль подключается к FTP и сохраняет по указанному относительному пути файл. Принимает относительный путь для сохранения и содержимое файла в base64 или идентификатор временного файла. BlockType: ftp_file_write</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="y0g8juzRPU:vHE%_VaP{" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/0b5c6d5a-b095-4f42-ab9b-253e451fe2bf</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="Y+8CnLflh)c9ZTeD0P/c"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="Hz9~BFj?9.}udK(/^0@z"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="1Di[!8J4mQ1EUzd)zEno">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="vj*b=u;frmK04sjvRT{w" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">csv_create</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="P9o7l+^H`~^W6W,wh?X8">
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$gZu;Zc|QzJx_L(0-IcQ">
+            <field name="TEXT">Создать csv-файл</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="/(M#KYv-UrX]j`)m!bbW">
+            <field name="INPUTNAME">HEADERS</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="gOauuNq-qk(Q%JP8M8gP">
+                <field name="TEXT">Заголовки</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="N5w?#,zQ#u$[QjiCd85?"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="oaMIGd$$h8ltP~Z)U}.~">
+                <field name="INPUTNAME">DATA</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="mi2u}`V}nMS=6|.Zcca,">
+                    <field name="TEXT">Данные</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="%m#W~SALurhN%SN8?+ho"></shadow>
+                </value>
+                <next>
+                  <block type="input_dummy" id="sB(9WiCQd%B(V8WWXCRn">
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="z8dICHDP@E]{lv)ma7RM">
+                        <field name="TEXT">Разделитель</field>
+                        <next>
+                          <block type="field_dropdown" id="$+*n+5j[mu;_7bi]6@D4">
+                            <mutation options="[&quot;text&quot;,&quot;text&quot;]"></mutation>
+                            <field name="FIELDNAME">DELIMITER</field>
+                            <field name="USER0">;</field>
+                            <field name="CPU0">SEMICOLON</field>
+                            <field name="USER1">,</field>
+                            <field name="CPU1">COMMA</field>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Mc5dX%`!`U*R]9|1TV%;" deletable="false" movable="false">
+        <field name="TEXT">Создает csv-файл и сохраняет его во временное хранилище. Возвращает идентификатор файла во временном хранилище. BlockType: csv_create</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id=".NhlK$z!8D)RSRLRX9HT" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/37e30042-c6c0-4531-b760-263a14e2fe54</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="8!XBj.S,Q=,F3O[)eA;/"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="x2[A?uIvI8fwzq!,7q/,">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="yziW~iDjF*V0HeGeW43G" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">send_email</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="%60:v3[Qbmt^Sb;lcdp_">
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Q9CK4jUd3fijX.b8.h^~">
+            <field name="TEXT">Отправить email</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="3xKKar)nl}(GhNk`jf48">
+            <field name="INPUTNAME">sender</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="Y7$Z?w}dc_V]_,$;#-Ct">
+                <field name="TEXT">Отправитель</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="b~{cMq*Vwb_OEt`P?B-+"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="(:}qDGB~AyonIgvOgdc:">
+                <field name="INPUTNAME">subject</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="kp%9upGoK|Eon2_EM]]t">
+                    <field name="TEXT">Тема</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="wO]yF*x(QGe^/{;5|%21"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="lDKBlb9pL%]u(S_cNb5?">
+                    <field name="INPUTNAME">recipients</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="y4]Cr!Q0bNbmxO^]H1]C">
+                        <field name="TEXT">Получатели</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="ixw*DBr`M;@Z_(:GFkM-"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="B7TYi]s7#3keT*2h%LPG">
+                        <field name="INPUTNAME">body</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="5%FIleOeB:)uN~@uijdx">
+                            <field name="TEXT">Тело</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="W)X@b5([XHvBNrP85e^-"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_value" id="7x0;55?T/Y^KYNb49,)k">
+                            <field name="INPUTNAME">attachments</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="!uO44ez-p=/cvZ!~U(DB">
+                                <field name="TEXT">Вложения</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="8Zy4;.V(GZ]uOwXQA(Fw"></shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Sg`U#G{q%iN+UWiW_@j0" deletable="false" movable="false">
+        <field name="TEXT">Отправляет email. BlockType: send_email</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="[gqeX)?/vH56Pwu^q=zJ" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/integration/f6660761-4f86-4bd3-867f-25b3155493e7</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id=")VMfRw@MWnY]2jrk7Q`g"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=":FWb+A^={#27;]Mj#nU1">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="yWBF/3RLe|gH9=7o,NQ+" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">csv_read</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id=",W-e[fxUv^lTm4Uno7xB">
+        <field name="INPUTNAME">FILE</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="[z(EplcsoNrdFi]VJj9N">
+            <field name="TEXT">Для каждой</field>
+            <next>
+              <block type="field_variable" id=",blrfhL}R?xeF@7J`?rh">
+                <field name="TEXT">row</field>
+                <field name="FIELDNAME">VAR</field>
+                <next>
+                  <block type="field_static" id="?xcQ)9ms^aj_t^u~,un[">
+                    <field name="TEXT">CSV-файла</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="K|+pHwM2Dw%*J#6f7hN:"></shadow>
+        </value>
+        <next>
+          <block type="input_statement" id=":yxj+X,b/LpNwK9[%z4P">
+            <field name="INPUTNAME">DO</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="VuF2Kv2!un.h4Lv|XInd"></shadow>
+            </value>
+            <next>
+              <block type="input_dummy" id=")0,9OQ?xl;`(rMCnlcI$">
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="{gSh}BqjM_r0vjX!V8W}">
+                    <field name="TEXT">Имена полей в 1 строке</field>
+                    <next>
+                      <block type="field_checkbox" id="}0kOc}u#*s+]T#Wa+*gL">
+                        <field name="CHECKED">FALSE</field>
+                        <field name="FIELDNAME">FIRST_ROW_IS_HEADER</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vviiVDh=h$1r7XNSsdxt" deletable="false" movable="false">
+        <field name="TEXT">Построчно читает CSV-файл. BlockType: csv_read</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="Ynd_*^K_(jUlKHQ5@tsh" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/3348b9b2-1024-406a-8e19-84967314b8af</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id=",{tDYelZ~.)NM~g*oxir"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="!f}4B{gxfm=E;zrxB1gE"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="|JQJ}/`,3k7`_B@jXW7T">
+        <mutation colour="#9fa55b"></mutation>
+        <field name="HUE">65</field>
+      </block>
+    </value>
+  </block></xml>
