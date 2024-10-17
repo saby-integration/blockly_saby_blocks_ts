@@ -1,0 +1,810 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="c1_attach_attachment" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">c1_attach_attachment</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">DOCUMENT</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="ie^bmLqV$t;`nIW59:8G">
+            <field name="TEXT">Прикрепить к документу 1С</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="U85a:P3A`*ebf/qyL=XK"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="?I;$I2eEC8x^OWfE%R`H">
+            <field name="INPUTNAME">FILE</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="#BhfQvtrh)MF-J1va,LV">
+                <field name="TEXT">Файл</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="!ve9hfx/Z=8|C%3BXC_k"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="Y)K9%_~OolKgbV2yM6?a">
+                <field name="INPUTNAME">NAME</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="Tm.r_3TBUXMnEc3z@JCR">
+                    <field name="TEXT">Название</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="O/c4i5ifl@7Dk:T3j3cP"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_attach_attachment</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="_eB){x?0nH)=.wEKuNl-"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="`L3YSW,+CBt[$.Qe}J(5"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_clear_table" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">c1_clear_table</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="xp!}|0n}Y=e1B4Vl*+9Z">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Очистить таблицу</field>
+            <next>
+              <block type="field_variable" id="C)vkcuJ^/!#SZ*)J[4BE">
+                <field name="TEXT">i</field>
+                <field name="FIELDNAME">TABLE</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_clear_table</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="/][TqCdjIM1X(*;deV^;"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id=".9GS5pmk:4=LawvIo5l+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_execute" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_execute</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">METHOD</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="ie^bmLqV$t;`nIW59:8G">
+            <field name="TEXT">Выполнить в ИС метод</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="U85a:P3A`*ebf/qyL=XK"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="?I;$I2eEC8x^OWfE%R`H">
+            <field name="INPUTNAME">PARAMS</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="#BhfQvtrh)MF-J1va,LV">
+                <field name="TEXT">параметр</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="!ve9hfx/Z=8|C%3BXC_k"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_execute</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_doc_read_list_print_forms" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_doc_read_list_print_forms</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="q=RqeEOAo`z3hx3gn$tR">
+        <field name="INPUTNAME">DOC</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Получить список печатных форм документа 1С</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="L:K2yIXnbAAVx_o),ZW`"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">Возвращает список печатных форм документа. BlockType: c1_doc_read_list_print_forms</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="dnFEc1/^R7*xZ^!cPh(v"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_doc_read_print_forms" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_doc_read_print_forms</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="h|xk7Vhm5IGJCRLWZjwz">
+        <field name="INPUTNAME">DOC</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">По документу 1С</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="9GnQl]%7{|P:;%I{YN:i"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id=";RtI(mZsXhkwP4e@*WW:">
+            <field name="INPUTNAME">PRINT_FORMS</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="9+mWlL]7Gy#Jn9D^bg#W">
+                <field name="TEXT">получить в pdf печатные формы</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="s,6*{@9#--{w]3oY{_NJ"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">Возвращает список вложений с указанными печатными формами. BlockType: c1_doc_read_print_forms</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="2fPTeJNpu4mc:N*]TiD`"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_get_uuid" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_get_uuid</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="u)a5cVO~2^8ayn];AYwL">
+        <field name="INPUTNAME">REF</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Получить UUID объекта</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="I@Z,XW7!_B85k8bE-8d5"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_get_uuid</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_meta_create" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_meta_create</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">SUBTYPE</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Создать объект метаданых</field>
+            <next>
+              <block type="field_dropdown" id="gZjII4m]y!0ntMymio?p">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">TYPE</field>
+                <field name="USER0">Документ</field>
+                <field name="CPU0">Документ</field>
+                <field name="USER1">Справочник</field>
+                <field name="CPU1">Справочник</field>
+                <field name="USER2">Перечисление</field>
+                <field name="CPU2">Перечисление</field>
+                <field name="USER3">Регистр сведений</field>
+                <field name="CPU3">РегистрСведений</field>
+                <next>
+                  <block type="field_static" id="],ZU#Cm0YGY:PVXYNdUU">
+                    <field name="TEXT">Тип</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="U85a:P3A`*ebf/qyL=XK"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_meta_create</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="T.6d1)E)YX]W1yrS(xO2"></shadow>
+      <block type="type_other" id="gpZbgb5Rm3-/NauzrRT^">
+        <field name="TYPE"></field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_meta_read" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">c1_meta_read</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="m29P=60M:Y1AmHx`6PVy">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Получить объект метаданных</field>
+            <next>
+              <block type="field_variable" id="gx%b~FTIKM~lK?[uCDtb">
+                <field name="TEXT"></field>
+                <field name="FIELDNAME">variable</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_meta_read</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="Dg/wOC^;CBhLdB2,f=2="></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id=",p4~l}9[z%1.qMDbS?ur"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_meta_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">c1_meta_update</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="m29P=60M:Y1AmHx`6PVy">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Записать объект метаданных</field>
+            <next>
+              <block type="field_variable" id="gx%b~FTIKM~lK?[uCDtb">
+                <field name="TEXT"></field>
+                <field name="FIELDNAME">variable</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_meta_update</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="Dg/wOC^;CBhLdB2,f=2="></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id=",p4~l}9[z%1.qMDbS?ur"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_predefine" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_predefine</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">ИмяИС</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">получить список предопределенных значений типа</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_predefine</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="S!Q/u^)_2?mocI.Dvg3|"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[m.*M5R4ga}NdK9VMuZx">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_ref" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_ref</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">SUBTYPE</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Ссылка</field>
+            <next>
+              <block type="field_dropdown" id="gZjII4m]y!0ntMymio?p">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">TYPE</field>
+                <field name="USER0">Документ</field>
+                <field name="CPU0">Документ</field>
+                <field name="USER1">Справочник</field>
+                <field name="CPU1">Справочник</field>
+                <field name="USER2">Перечисление</field>
+                <field name="CPU2">Перечисление</field>
+                <field name="USER3">Регистр сведений</field>
+                <field name="CPU3">РегистрСведений</field>
+                <field name="USER4">План видов расчета</field>
+                <field name="CPU4">ПланВидовРасчета</field>
+                <next>
+                  <block type="field_static" id="],ZU#Cm0YGY:PVXYNdUU">
+                    <field name="TEXT">Тип</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="U85a:P3A`*ebf/qyL=XK"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="?I;$I2eEC8x^OWfE%R`H">
+            <field name="INPUTNAME">UUID</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="#BhfQvtrh)MF-J1va,LV">
+                <field name="TEXT">uuid</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="!ve9hfx/Z=8|C%3BXC_k"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_ref</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_ref_from_api3" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_ref_from_api3</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">API3</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Получить ссылку из API3 объекта</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_ref_from_api3</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="ikW(+.Bg@|BriBRWdh5L"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="/,~*~T{9v)r{:(i41n$3">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_ref_from_id" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_ref_from_id</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">ИмяИС</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Получить ссылку</field>
+            <next>
+              <block type="field_static" id="],ZU#Cm0YGY:PVXYNdUU">
+                <field name="TEXT">ИмяИС</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="U85a:P3A`*ebf/qyL=XK"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="?I;$I2eEC8x^OWfE%R`H">
+            <field name="INPUTNAME">ИдИС</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="#BhfQvtrh)MF-J1va,LV">
+                <field name="TEXT">ИдИС</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="!ve9hfx/Z=8|C%3BXC_k"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_ref_from_id</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_ref_to_obj" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_ref_to_obj</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="XA~wo@Uw[?%~hY|%{rbZ">
+        <field name="INPUTNAME">LINK</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Получить объект из ссылки</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="F@H3]EiryDl1kAIKL^dc"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="X:},bU5_[j14ZEq}lOK9">
+            <field name="INPUTNAME">SABY_TYPE</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=")P?;_L(So+J})OOdt*J}">
+                <field name="TEXT">Тип СБИС</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id=":Wf`MwSRBxqG|C2m-:4K"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_ref_to_obj</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_register_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">c1_register_update</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">SUBTYPE</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Обновить</field>
+            <next>
+              <block type="field_dropdown" id="gZjII4m]y!0ntMymio?p">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">TYPE</field>
+                <field name="USER0">регистр сведений</field>
+                <field name="CPU0">РегистрыСведений</field>
+                <field name="USER1">регистр накопления</field>
+                <field name="CPU1">РегистрыНакопления</field>
+                <next>
+                  <block type="field_static" id="],ZU#Cm0YGY:PVXYNdUU">
+                    <field name="TEXT">Тип</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="U85a:P3A`*ebf/qyL=XK"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="?I;$I2eEC8x^OWfE%R`H">
+            <field name="INPUTNAME">select</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="#BhfQvtrh)MF-J1va,LV">
+                <field name="TEXT">Отбор</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="!ve9hfx/Z=8|C%3BXC_k"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="q24^q^hio9dL{2j9IT8{">
+                <field name="INPUTNAME">record</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="{qry:(o5[t$yePAFtmKu">
+                    <field name="TEXT">Запись</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="jRl30fro)C0%9X|ezi=}"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">Обновить или вставить запись регистра сведений или накопления. BlockType: c1_register_update</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="ngK5Ls1!l`SU!0#kV~hZ"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="I)R=i|zP/^WJR^6uk0+|"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="c1_strip" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_strip</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+        <field name="INPUTNAME">STRING</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Обрезать пробелы</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: c1_strip</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="ikW(+.Bg@|BriBRWdh5L"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="/,~*~T{9v)r{:(i41n$3">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block></xml>

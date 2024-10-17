@@ -1,0 +1,166 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="}L,?G:7a/2LH3%L:t|Of" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="TOP"></mutation>
+    <field name="NAME">raise_ext_exception</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">TOP</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="w1O5~70@m%)e_V0WIduj">
+        <field name="INPUTNAME">parent</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="JE=_heQdV6$MF1sUEvjN">
+            <field name="TEXT">Raise</field>
+            <next>
+              <block type="field_dropdown" id=";u`{j37yDU}f.%ptt$!y">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">type</field>
+                <field name="USER0">Exception</field>
+                <field name="CPU0">UserException</field>
+                <field name="USER1">KeyNotFound</field>
+                <field name="CPU1">UserKeyNotFound</field>
+                <field name="USER2">Unauthorized</field>
+                <field name="CPU2">Unauthorized</field>
+                <field name="USER3">Cancel</field>
+                <field name="CPU3">UserCancel</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="ALyiwV9Rz`J2J9Ss+d/,"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="^J%Ont)(WfiQ`ZMu%1O[">
+            <field name="INPUTNAME">message</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="|5(yjU]t(r+]A^7IiagK">
+                <field name="TEXT">Message</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="NX!y;OW8ZK,R6v/No!,e"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="$/gnf@~QZ5!7*Z3e3o)q">
+                <field name="INPUTNAME">detail</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="G:8%(n}S.FT6+~`{R3d?">
+                    <field name="TEXT">Detail</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="IN^;ZPf16tnwiA]Gt*[L"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="2uLD{/-Bh=wM=d?UPS*}">
+                    <field name="INPUTNAME">dump</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="(;vuez.SYatlRfJ4T?:+">
+                        <field name="TEXT">Dump</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="Ot4bY6-5:K0fT-o;!eR,"></shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="mOr*lG6IM[,_O)06M;Jf" deletable="false" movable="false">
+        <field name="TEXT">Вызывает исключение. BlockType: raise_ext_exception</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="-fJyhobq/-c;_Lg`wY02" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="6`cz1vCWn/2qg(|dUk=|"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="H;+N6}rT0/S]PnU6,LL|">
+        <mutation colour="#a55b5b"></mutation>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="G3Z_hDO,!yb%)KtLjW{D" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">try_catch</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="dC!{;@sU42SdLfi1#kkM">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="JV612%I%#7b:o{rxQ/fZ">
+            <field name="TEXT">Try</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="Nup#Wct1IPwOOrgtRwD-">
+            <field name="INPUTNAME">TRY</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="wi+.uaA[,=Q{#U0G3uAG"></shadow>
+            </value>
+            <next>
+              <block type="input_dummy" id="AYK7E4=gDzDFi6GzHVvy">
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="gV{c$(T@-gM)!,!.%*.L">
+                    <field name="TEXT">Catch</field>
+                    <next>
+                      <block type="field_variable" id="/-|yiz`[Pj,z3N+brbww">
+                        <field name="TEXT">error</field>
+                        <field name="FIELDNAME">VAR</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="input_statement" id=";i4L@bXJRhcPnEcmBw56">
+                    <field name="INPUTNAME">CATCH</field>
+                    <field name="ALIGN">LEFT</field>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="k;[!|jbeVDVmM(Iu$zm8"></shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="^]=BM)(zG52=4hy1L6/y" deletable="false" movable="false">
+        <field name="TEXT">Попытка/исключение. BlockType: try_catch</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="pX#}o{28EZW!G|S|V1.^" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="xX)x?e,,oIW6:,L#}!X#"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="F`0O_X4usX!Gz:|/xhhq"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="fXj`52AodK|IBfh9TfIf">
+        <mutation colour="#6da55b"></mutation>
+        <field name="HUE">105</field>
+      </block>
+    </value>
+  </block></xml>
