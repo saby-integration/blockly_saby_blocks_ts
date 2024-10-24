@@ -1,0 +1,153 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="#d!jqvi*7IZ+do:S3Nqu" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsysobj_read</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="XVAi:g%yKOO:s(H0yS.N">
+        <field name="INPUTNAME">ref</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="N!@AEt{KyV_v9?1)|!pQ">
+            <field name="TEXT">Read ExtSysObj</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="QHx+22*bm)2(_M{1Y+Jj"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="-5SPUqBZ`3!O}j|V!qh%" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsysobj_read</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="HDK;cgg7y^i`t~:@*c6P" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="z1vADxY|nndDZRsyhj:j"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="*B@dKj:|-7Koi]^)eL~W">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="#d!jqvi*7IZ+do:S3Nqu" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsysobj_list</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="=P-FhOBME-OzN-3?4w:1">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="}-^Ek_7vdZ%[,q3fA{kP">
+            <field name="TEXT">Read list ExtSysObj</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="-an_4mS^bD9Vtk}cMA=e">
+            <field name="INPUTNAME">obj_type</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="QLiqc:w|sPwI^j,`cw/x">
+                <field name="TEXT">type</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="bQlU#/N]J[2f5R(qXBrF"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="Hxm3%cs:w[-[-|Fn$7`t">
+                <field name="INPUTNAME">where</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="h/BpLCTrUI;3^e03AA0B">
+                    <field name="TEXT">where</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="]7e26WmD::Ol(=O]{R46"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="x=W$SKx(z9QhKb]mS9Gn">
+                    <field name="INPUTNAME">row</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="fq~=@KDEZTex~539^E!.">
+                        <field name="TEXT">row</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="m7dV{H7).S#:@h[BG$JH"></shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="-5SPUqBZ`3!O}j|V!qh%" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsysobj_list</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="HDK;cgg7y^i`t~:@*c6P" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="*1u4TO]yF%k!a%4maz$J"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="*B@dKj:|-7Koi]^)eL~W">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="#d!jqvi*7IZ+do:S3Nqu" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsysobj_update</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="l@Dy4891cF=WVph8E[uS">
+        <field name="INPUTNAME">data</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="R!#=B6bw?Nk0@LGT8G2.">
+            <field name="TEXT">Update ExtSysObj</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="D^}|K=i7#gN46K3f8oT@"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="-5SPUqBZ`3!O}j|V!qh%" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsysobj_update</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="HDK;cgg7y^i`t~:@*c6P" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="3Hr@OW9P@5CEq/w88bcC"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="*B@dKj:|-7Koi]^)eL~W">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>

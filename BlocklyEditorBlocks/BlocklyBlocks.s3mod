@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ui_module autodoc="0" for_cdn="0" id="14333930-a4c6-492d-ace3-e34f7b1e9ccc" kaizen_zone="2e060ed6-1c91-49a6-86b6-34e185dae2b1" name="BlocklyEditorBlocks" package="Integration" required="0" responsible="Саньков Д.О." responsible_uuid="47eef0c4-f0d8-4375-9bf8-f0ce450fb471" version="1.07">
+
+  <description/>
+
+  <depends/>
+
+  <load_after/>
+
+  <parameters/>
+
+  <resources/>
+
+  <preload/>
+
+</ui_module>
