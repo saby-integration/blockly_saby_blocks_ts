@@ -1,0 +1,2906 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="check_ini_is_loaded" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">check_ini_is_loaded</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="pPmA{kv)N73-bU!iw.;c">
+        <field name="INPUTNAME">ini</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="-pRrgEsj(nRMsNY7ors?">
+            <field name="TEXT">Проверить доступность ини</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="RqM]Y2Ott*qiSWc-~R[H"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="IcZ:dSFYm%zQp~[D7!P?" deletable="false" movable="false">
+        <field name="TEXT">BlockType: check_ini_is_loaded</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="{UB)?ky[^ul#USP1=d)s" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="rNdAP.RS(UYen9t]?qAD"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="i/h.AXEeq3:^YIINmRe*"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="xMC_D%b:[.;(NJ5:)RPJ">
+        <mutation colour="#a55b5b"></mutation>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="fed_convert_object_to_xml" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">fed_convert_object_to_xml</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="CFIy4a$xliwU7hc8?anX">
+        <field name="INPUTNAME">data</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Z)8`[u*1KKX3A1n8iSTS">
+            <field name="TEXT">Преобразовать объект</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="7f2AX2j/C(+I4h3V8P#b"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="jEcQ8fdSol#g3ghu^,$s">
+            <field name="INPUTNAME">format</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="kI1|}Bak*=9X/-Jt7)#m">
+                <field name="TEXT">в XML формата</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null"></shadow>
+              <block type="type_string" id="[PYX$umKJO95Nb8#amSc"></block>
+            </value>
+            <next>
+              <block type="input_value" id="]OZNF(/veP0)}_v8CoW,">
+                <field name="INPUTNAME">version</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="TBD7Bg{7#rN(TBOlI4-k">
+                    <field name="TEXT">версия формата</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null"></shadow>
+                  <block type="type_string" id="lP8Hur5QXGkUes:m/LZv"></block>
+                </value>
+                <next>
+                  <block type="input_value" id="M*u-BH@kFmqJw.PM~y!R">
+                    <field name="INPUTNAME">pattern</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="JQoD-DG_V)w-deMRyIA+">
+                        <field name="TEXT">подстановкой</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null"></shadow>
+                      <block type="type_string" id="D~(c-O$MVJ~rR(H*XX$I"></block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="`bj*f*oxqLX::^?J)n@W" deletable="false" movable="false">
+        <field name="TEXT">BlockType: fed_convert_object_to_xml</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="#K0K@HRKJOOWr53MAJo~" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="2VMgNdFj3s50dguqQ%*8"></shadow>
+      <block type="type_other" id="a=}u$Tj*MtsPfIqek?;(">
+        <field name="TYPE">object</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="s(+aqzwm{]}r7?``{hO#">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="fed_convert_xml_to_object" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">fed_convert_xml_to_object</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="CFIy4a$xliwU7hc8?anX">
+        <field name="INPUTNAME">data</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Z)8`[u*1KKX3A1n8iSTS">
+            <field name="TEXT">Преобразовать XML</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="7f2AX2j/C(+I4h3V8P#b"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="ifxe?!._R9[RD#8|l`uv">
+            <field name="INPUTNAME">pattern</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="|hYyHjc|j{^I*-s]ow4v">
+                <field name="TEXT">в объект подстановкой</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="m|?MeO*Sj/?cGBHFwrhv"></shadow>
+              <block type="type_string" id=".vqSO+9Fg[Qu8A7+TwYz"></block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="`bj*f*oxqLX::^?J)n@W" deletable="false" movable="false">
+        <field name="TEXT">BlockType: fed_convert_xml_to_object</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="#K0K@HRKJOOWr53MAJo~" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="a#n/JS;)I.Abu=apJx+%"></shadow>
+      <block type="type_other" id="a=}u$Tj*MtsPfIqek?;(">
+        <field name="TYPE">object</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="s(+aqzwm{]}r7?``{hO#">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsyncdoc_run" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsyncdoc_run</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="8]YC*YPUAY!uD^mk(tsx">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Выполнить обмен</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsyncdoc_run</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="/{%qwU+MErerR8O`;X~d"></shadow>
+      <block type="type_boolean" id=")WtQl%%Di/}gj[MUIKPE"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsyncdoc_write" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsyncdoc_write</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="{%rn}y-J4F}}E@p`x^hN">
+        <field name="INPUTNAME">extsyncdoc</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Добавить в обмен</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="svx,V#V*#SK|jaoD[L(T"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="(d+aVAP}P{w)EP/.uAkl">
+            <field name="INPUTNAME">objects</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_dropdown" id="T^Lyc=Y9J/DeQiUFEY`e">
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                <field name="FIELDNAME">direction</field>
+                <field name="USER0">import</field>
+                <field name="CPU0">import</field>
+                <field name="USER1">import api3 obj</field>
+                <field name="CPU1">import_api3_obj</field>
+                <field name="USER2">import api3 link</field>
+                <field name="CPU2">import_api3_link</field>
+                <field name="USER3">import raw data</field>
+                <field name="CPU3">import_raw_data</field>
+                <field name="USER4">export</field>
+                <field name="CPU4">export</field>
+                <next>
+                  <block type="field_static" id="Z6S9*(W*X`6UcFQX/:~C">
+                    <field name="TEXT">объектов</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="=TD8D/1@z]NOeZGO.ChJ"></shadow>
+              <block type="type_list" id="gQP3aO6!,-|Q{VAU)y#X"></block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsyncdoc_write</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT">http://wiki.razgovorov.ru/index.php/ExtSyncDoc.Write_-_Blockly</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="cUR@2dvEmbpFj^![nSjz"></shadow>
+      <block type="type_boolean" id="4T@PQM9|Tna3fhVKPD[D"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="]tR|OC:IZ,,*.5YK~U!;" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">extsyncdoc_create</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="?l(QF`9I..sRuna,xU0(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="u09SaJwl_)qKLo^(Y[A(">
+            <field name="TEXT">Создать обмен</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="ma3p]ZA+6CwADWHkFYYT">
+            <field name="INPUTNAME">Data</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="Q)E5~Aj-y_u`nv0$(-z(">
+                <field name="TEXT">Data</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="(hkJ:kPdp%Xa@RnHOZO*"></shadow>
+            </value>
+            <next>
+              <block type="input_dummy" id="d~A+cc01Hdr[r:U4~z67">
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_dropdown" id="zatx{FF/wJuEkB843ceu">
+                    <mutation options="[&quot;text&quot;,&quot;text&quot;]"></mutation>
+                    <field name="FIELDNAME">Direction</field>
+                    <field name="USER0">import</field>
+                    <field name="CPU0">1</field>
+                    <field name="USER1">export</field>
+                    <field name="CPU1">2</field>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Fg^yIMYb`Se{aIc2C=jL" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsyncdoc_create</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="a.hmOJ9ZhLCwfp3C@+Jc" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="Oswk4A{z9Wi]6g?e@L3e"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="luvbS[_OfZ#O@1$iczig"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%o3/mHaA7A7dSN}2#*FC">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsys_find" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsys_find</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="vilP28Rapi+Honf8/,JF">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Найти id объекта ИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+            <field name="INPUTNAME">object</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="#%0m_q+m!;s:1^ni:Eef">
+                <field name="TEXT">object</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="0g82D;:3~Z!$ozUp`t[_">
+                <field name="INPUTNAME">ini_name</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="eyW{Q:afKABamj_Dnz_B">
+                    <field name="TEXT">ini_name</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="u@xoI]|YNU5;)0#VIe=p"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsys_find</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsys_read" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsys_read</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="s0G!4}.+{b[W54tJdpO^">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Прочитать объект из ИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+            <field name="INPUTNAME">object</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="}_(rr$BYF!HOh#FfJXq[">
+                <field name="TEXT">object</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+                <field name="INPUTNAME">ini_name</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                    <field name="TEXT">ini_name</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsys_read</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsys_query" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsys_query</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="3j-?@zQLtFb^,+x?]Tf#">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="!FMqH2b{oP=3G`A@oq|9">
+            <field name="TEXT">Получить список объектов из ИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+            <field name="INPUTNAME">filter</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+                <field name="TEXT">filter</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id=".JK/-!On@g0N$z?6cbHV">
+                <field name="INPUTNAME">limit</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="D(Srd]-6skPx)c@mH.QZ">
+                    <field name="TEXT">limit</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="4g2TYS%JaMZ2#{@@.Uyn"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="tl`~:=[@uXvrJ%%P9n1O">
+                    <field name="INPUTNAME">offset</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="qDC;4ell6ZS,1.B3qUb:">
+                        <field name="TEXT">offset</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="bt7|Wc+9qmbu]vs4wCd9"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="xdQmIiy3$I.:1:]Yykj3">
+                        <field name="INPUTNAME">ini_name</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="Q9*HTM25tB}v^e9f!0sa">
+                            <field name="TEXT">ini_name</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="CL?TqXhVnYf~mj^M)!]4"></shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsys_query</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsys_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">extsys_update</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="s0G!4}.+{b[W54tJdpO^">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Обновить объект в ИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+            <field name="INPUTNAME">object</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="}_(rr$BYF!HOh#FfJXq[">
+                <field name="TEXT">object</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+                <field name="INPUTNAME">ini_name</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                    <field name="TEXT">ini_name</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsys_update</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsys_update_status" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">extsys_update_status</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="0I1#3}?pEVhiR{p?./ON">
+        <field name="INPUTNAME">NAME</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Обновить статус</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="jxs/~#gJoxw)Lt5^Ktpo"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsys_update_status</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="WZDn/DqKxE@6ZCi!cMNT"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="Dniy[~h{$Qf=7IL+vDkE"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="extsys_update_status2" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">extsys_update_status2</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="_T3d)+jZGZ/rean`SUPq">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="3/85{!|,m.s056G6yC`.">
+            <field name="TEXT">Обновить статус в ИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="0I1#3}?pEVhiR{p?./ON">
+            <field name="INPUTNAME">UID</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+                <field name="TEXT">Внешний идентификатор</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="jxs/~#gJoxw)Lt5^Ktpo"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="qiCi@2$!CYlrJf[1SVU9">
+                <field name="INPUTNAME">ACTIVE_STAGE</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="~vWRTL6xKRoA)uMEx|~O">
+                    <field name="TEXT">Активный этап</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="?jF:*]CE8dsP=;iZ002J"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="3Xx/53jZIINm=JBr#AlT">
+                    <field name="INPUTNAME">STATE_CODE</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="l%I4kOT/S/j:WQk-Vt`%">
+                        <field name="TEXT">Код состояния ЭДО</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="nl%X5|4DJydT^%C`IzSQ"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="HtvWjuy3=LBO)5RJ~3%8">
+                        <field name="INPUTNAME">ИмяИС</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="hiM:2+WGF]SBR*I91%VX">
+                            <field name="TEXT">ИмяИС</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="SYshZt+oM6[2%#f9Jl-Y"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_value" id="RknlT:pi$Qw%3XPwL*y:">
+                            <field name="INPUTNAME">ИдИС</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="g5TNlccFa586h`2JzFZ`">
+                                <field name="TEXT">ИдИС</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="`+|U_bhz9ZuGboiybVNV"></shadow>
+                            </value>
+                            <next>
+                              <block type="input_value" id="x)]a021th#?(`XO|,^I0">
+                                <field name="INPUTNAME">SbisID</field>
+                                <field name="ALIGN">RIGHT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="zKCoT|~4uw7:O=~l`@47">
+                                    <field name="TEXT">Идентификатор СБИС</field>
+                                  </block>
+                                </statement>
+                                <value name="TYPE">
+                                  <shadow type="type_null" id="Zdky$}]PeF,6-HE~%Y+R"></shadow>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsys_update_status2</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="WZDn/DqKxE@6ZCi!cMNT"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="Dniy[~h{$Qf=7IL+vDkE"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="pickup_ini" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">pickup_ini</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="mT%Y)Z)!-LH8+RUSX@~p">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="ie^bmLqV$t;`nIW59:8G">
+            <field name="TEXT">Подобрать ini</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="b(4])2ZjjQCn`B}y2O+2">
+            <field name="INPUTNAME">TYPE</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="cw8.;8?}FeV}@):au#(c">
+                <field name="TEXT">type</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="U85a:P3A`*ebf/qyL=XK"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="?I;$I2eEC8x^OWfE%R`H">
+                <field name="INPUTNAME">ID</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="#BhfQvtrh)MF-J1va,LV">
+                    <field name="TEXT">id</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="!ve9hfx/Z=8|C%3BXC_k"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="MaVQg%Bvd;U#HGYA75vL">
+                    <field name="INPUTNAME">RAW_DATA</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="p^;;AYMLu(`m$G9TDkx_">
+                        <field name="TEXT">raw data</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="h00,[6q~dDC:.,3DkG8K"></shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: pickup_ini</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_download_from_link" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_download_from_link</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="CFIy4a$xliwU7hc8?anX">
+        <field name="INPUTNAME">link</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Z)8`[u*1KKX3A1n8iSTS">
+            <field name="TEXT">Скачать ссылку</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="7f2AX2j/C(+I4h3V8P#b"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="`bj*f*oxqLX::^?J)n@W" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_download_from_link</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="#K0K@HRKJOOWr53MAJo~" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id=",y-gsf3aU*-X|h~ix:W:"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="s(+aqzwm{]}r7?``{hO#">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_edo_start" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_edo_start</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+        <field name="INPUTNAME">doc</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Запустить в документооборот</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_edo_start</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_extsyncobj_list" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">saby_extsyncobj_list</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="JMyN,;{IN9h;fxXJEhb?">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">for</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">object</field>
+                <field name="FIELDNAME">VAR</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">in exchange</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="HsoFFaL7HY!Il:J8#M5A">
+            <field name="INPUTNAME">DO</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="eC/m]U:RzCEILZt~Z[|Y"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_extsyncobj_list</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="0pH}W;cv[6J_l]Lo*!:_"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="C1dqdsBKiJ,+Flwt!^Cz"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_find" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_find</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="vilP28Rapi+Honf8/,JF">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Найти id объекта СБИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id=",QqwCd__~g^I||_6m?tQ">
+            <field name="INPUTNAME">type</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="kfN*JWG]Z;p`vb*qL-=P">
+                <field name="TEXT">type</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="KK+A01-jOt~UlJ7MQ//;"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+                <field name="INPUTNAME">object</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="#%0m_q+m!;s:1^ni:Eef">
+                    <field name="TEXT">object</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_find</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_read" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_read</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="s0G!4}.+{b[W54tJdpO^">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Прочитать объект из СБИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+            <field name="INPUTNAME">type</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                <field name="TEXT">type</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+                <field name="INPUTNAME">id</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="}_(rr$BYF!HOh#FfJXq[">
+                    <field name="TEXT">id</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_read</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_read_changes" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">saby_read_changes</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="JMyN,;{IN9h;fxXJEhb?">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">for</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">event</field>
+                <field name="FIELDNAME">VAR</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">in new SABY events</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="HsoFFaL7HY!Il:J8#M5A">
+            <field name="INPUTNAME">DO</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="eC/m]U:RzCEILZt~Z[|Y"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_read_changes</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="0pH}W;cv[6J_l]Lo*!:_"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="C1dqdsBKiJ,+Flwt!^Cz"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_read_document" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_read_document</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+        <field name="INPUTNAME">doc</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Прочитать документ СБИС</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_read_document</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_query" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_query</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="3j-?@zQLtFb^,+x?]Tf#">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="!FMqH2b{oP=3G`A@oq|9">
+            <field name="TEXT">Получить список объектов из СБИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="xdQmIiy3$I.:1:]Yykj3">
+            <field name="INPUTNAME">type</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="Q9*HTM25tB}v^e9f!0sa">
+                <field name="TEXT">type</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="CL?TqXhVnYf~mj^M)!]4"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+                <field name="INPUTNAME">filter</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+                    <field name="TEXT">filter</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id=".JK/-!On@g0N$z?6cbHV">
+                    <field name="INPUTNAME">limit</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="D(Srd]-6skPx)c@mH.QZ">
+                        <field name="TEXT">limit</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="4g2TYS%JaMZ2#{@@.Uyn"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="tl`~:=[@uXvrJ%%P9n1O">
+                        <field name="INPUTNAME">offset</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="qDC;4ell6ZS,1.B3qUb:">
+                            <field name="TEXT">offset</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="bt7|Wc+9qmbu]vs4wCd9"></shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_query</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_task_list" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">saby_task_list</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="JMyN,;{IN9h;fxXJEhb?">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">for</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">task</field>
+                <field name="FIELDNAME">VAR</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">in my SABY task</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="HsoFFaL7HY!Il:J8#M5A">
+            <field name="INPUTNAME">DO</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="eC/m]U:RzCEILZt~Z[|Y"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_task_list</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="0pH}W;cv[6J_l]Lo*!:_"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="C1dqdsBKiJ,+Flwt!^Cz"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_update</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="s0G!4}.+{b[W54tJdpO^">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Обновить объект в СБИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+            <field name="INPUTNAME">type</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                <field name="TEXT">type</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+                <field name="INPUTNAME">object</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="}_(rr$BYF!HOh#FfJXq[">
+                    <field name="TEXT">object</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_update</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_upload_files" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_upload_files</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+        <field name="INPUTNAME">doc</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Загрузить на СБИС Диск</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_upload_files</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT">&#10;                    https://wiki.razgovorov.ru/index.php/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%82%D1%8C_%D0%BD%D0%B0_%D0%A1%D0%91%D0%98%D0%A1_%D0%94%D0%B8%D1%81%D0%BA_-_Blockly&#10;                </field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_write_document" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_write_document</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+        <field name="INPUTNAME">doc</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Записать документ СБИС</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_write_document</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="test_read_saby_object" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">test_read_saby_object</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="*BR3`1iLwXo;%8!QHW;l">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="BAELjTh5s8x=`-f/ptIO">
+            <field name="TEXT">Получить объект СБИС</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="[8lS@}[!0(S#FG=C)bNs">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="AcN*)b%IHhj$~zggcZiI">
+                <field name="TEXT">тип</field>
+                <next>
+                  <block type="field_input" id="Qd.R)VXO{,uS:)Z)C(nj">
+                    <field name="TEXT"></field>
+                    <field name="FIELDNAME">type</field>
+                    <next>
+                      <block type="field_static" id="x2iFCvFX!x0@gJ-vl4kc">
+                        <field name="TEXT">по ключу</field>
+                        <next>
+                          <block type="field_dropdown" id=",tt1G|e#@+Xudn57ymYj">
+                            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                            <field name="FIELDNAME">Key</field>
+                            <field name="USER0">1</field>
+                            <field name="CPU0">1</field>
+                            <field name="USER1">2</field>
+                            <field name="CPU1">2</field>
+                            <field name="USER2">3</field>
+                            <field name="CPU2">3</field>
+                            <field name="USER3">Название</field>
+                            <field name="CPU3">Название</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="input_dummy" id="xk0Ea]{2]@4,yUD/1{DP">
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="NS$inUm{5IhwR_k.ueL9">
+                    <field name="TEXT">Значение ключа</field>
+                    <next>
+                      <block type="field_input" id="c(~}kV,$C(7U-gLfj+Z#">
+                        <field name="TEXT"></field>
+                        <field name="FIELDNAME">value1</field>
+                        <next>
+                          <block type="field_input" id="MwF16I/X%^b=cS?W3rDW">
+                            <field name="TEXT"></field>
+                            <field name="FIELDNAME">value2</field>
+                            <next>
+                              <block type="field_input" id="h3.5^N.,1!.!(U6(*rrb">
+                                <field name="TEXT"></field>
+                                <field name="FIELDNAME">value3</field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="IPoFJ`!p7cd1hc/2:=5l" deletable="false" movable="false">
+        <field name="TEXT">Будет найден идентификатор и сделана подготовка к выгрузке этого объекта. BlockType: test_read_saby_object</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]2Kpq(CK_lqoMkZ-=g)l" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="(2Nz]|A}EQS3*|=l,DO8"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="*N`z`NyP]8Rl?-7BuHkr">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="workspace_props" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="NONE"></mutation>
+    <field name="NAME">workspace_props</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">NONE</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="#6}Ua-iL5PJ$^[5_8aCk">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="#A^D%DdL/k*?d*$iKClS">
+            <field name="TEXT">WORKSPACE META</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="TCE/?/61s+AY2O1wId7h">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="{(qq5#R]FkAjrnXXLvZ,">
+                <field name="TEXT">System</field>
+                <next>
+                  <block type="field_input" id="CI;jQS(K:NH*ovyDi=n{">
+                    <field name="TEXT"></field>
+                    <field name="FIELDNAME">system</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="input_dummy" id="CB2X^Q^;@]:D:0`+tdS#">
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="T8d7v.OR98~lO.WrrO(R">
+                    <field name="TEXT">Subsystem</field>
+                    <next>
+                      <block type="field_input" id="Z;7[[X^44dErS/$]e5wq">
+                        <field name="TEXT"></field>
+                        <field name="FIELDNAME">subsystem</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="input_dummy" id="~yD!h/_BH{m9,CqCr.26">
+                    <field name="ALIGN">LEFT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="wnHy+9{k0dp?~+{=}HPk">
+                        <field name="TEXT">Subsystem version</field>
+                        <next>
+                          <block type="field_input" id="cXQ!JR6q-M(F,u^Njc|*">
+                            <field name="TEXT"></field>
+                            <field name="FIELDNAME">subsystem_version</field>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="input_dummy" id="c,gMP-M1p]=L8tUgt]z9">
+                        <field name="ALIGN">LEFT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="PPf_M=3g,#B(FT`|u!Nz">
+                            <field name="TEXT">API object type</field>
+                            <next>
+                              <block type="field_input" id="mcg#jCGV*nHnBZGQ[vL3">
+                                <field name="TEXT"></field>
+                                <field name="FIELDNAME">api_object_type</field>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="input_dummy" id="2Y0Hh|y-:b#Ht=0sdW}@">
+                            <field name="ALIGN">LEFT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="FB0jr)g^1@w!UMq:Tz#o">
+                                <field name="TEXT">System object type</field>
+                                <next>
+                                  <block type="field_input" id="#q+Z0G)xk6@Q317akT1[">
+                                    <field name="TEXT"></field>
+                                    <field name="FIELDNAME">system_object_type&#10;                                                                        </field>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="input_dummy" id="g]@Uk$w4IN{aRGHT,Vc_">
+                                <field name="ALIGN">LEFT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="+5.]R5ZJJ}0hDSzd#T8K">
+                                    <field name="TEXT">Operation</field>
+                                    <next>
+                                      <block type="field_dropdown" id="~;[*h/_^3Sz+TwjUyTp$">
+                                        <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                                        <field name="FIELDNAME">operation&#10;                                                                                </field>
+                                        <field name="USER0">read</field>
+                                        <field name="CPU0">read</field>
+                                        <field name="USER1">query</field>
+                                        <field name="CPU1">query</field>
+                                        <field name="USER2">find</field>
+                                        <field name="CPU2">find</field>
+                                        <field name="USER3">update</field>
+                                        <field name="CPU3">update</field>
+                                        <field name="USER4">changes</field>
+                                        <field name="CPU4">changes</field>
+                                        <field name="USER5">event</field>
+                                        <field name="CPU5">event</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                                <next>
+                                  <block type="input_dummy" id="yGR``nXlK4Olr.9F,1|[">
+                                    <field name="ALIGN">LEFT</field>
+                                    <statement name="FIELDS">
+                                      <block type="field_static" id="w$3IH6g~W.Z?bc4Cov(d">
+                                        <field name="TEXT">Quality</field>
+                                        <next>
+                                          <block type="field_dropdown" id="m4AJ*u#(q=_I`#PL;D+2">
+                                            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                                            <field name="FIELDNAME">&#10;                                                                                            quality&#10;                                                                                        </field>
+                                            <field name="USER0">origin&#10;                                                                                        </field>
+                                            <field name="CPU0">origin&#10;                                                                                        </field>
+                                            <field name="USER1">raw</field>
+                                            <field name="CPU1">raw</field>
+                                            <field name="USER2">claning&#10;                                                                                        </field>
+                                            <field name="CPU2">cleaning&#10;                                                                                        </field>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </statement>
+                                    <next>
+                                      <block type="input_dummy" id="BVy8@TW|igM,6y._(Wi`">
+                                        <field name="ALIGN">LEFT</field>
+                                        <statement name="FIELDS">
+                                          <block type="field_static" id=")i]GWSP?L2=~FNQ)u]9^">
+                                            <field name="TEXT">File&#10;                                                                                            version&#10;                                                                                        </field>
+                                            <next>
+                                              <block type="field_input" id="GCuyuSA;F$yXbnI+`_6e">
+                                                <field name="TEXT"></field>
+                                                <field name="FIELDNAME">&#10;                                                                                                    ini_version&#10;                                                                                                </field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="%Zg+Qi=o1[3nQb/Z}X7N" deletable="false" movable="false">
+        <field name="TEXT">BlockType: workspace_props</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="[Y`sIuR%Yh4XW4$l)|mT" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="O$y`W/3pjhwe0DnBeRf6">
+        <mutation colour="#a55b5b"></mutation>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="+r:==UYh0H%4WPZ!s~Vc" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">controls_forEach2</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id=":3g(v6=`W]*M%,T3up;z">
+        <field name="INPUTNAME">LIST</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">for each</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">item</field>
+                <field name="FIELDNAME">VAR</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">in list</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="Km{S/sv~N`u~sc1/QRZ~"></shadow>
+        </value>
+        <next>
+          <block type="input_statement" id="HsoFFaL7HY!Il:J8#M5A">
+            <field name="INPUTNAME">DO</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="eC/m]U:RzCEILZt~Z[|Y"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: controls_foreach2</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="0pH}W;cv[6J_l]Lo*!:_"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="C1dqdsBKiJ,+Flwt!^Cz"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="+r:==UYh0H%4WPZ!s~Vc" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">accounting_entries_list</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="JMyN,;{IN9h;fxXJEhb?">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">Для</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">Документ</field>
+                <field name="FIELDNAME">var</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">из списка проводок</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="uM.##SsSx|V`JFBDq.#V">
+            <field name="INPUTNAME">filter</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="]isv!gQE.:}{_Km_^Tj2">
+                <field name="TEXT">Фильтр</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="kuScp70~z%ow3`by|Rx@"></shadow>
+            </value>
+            <next>
+              <block type="input_statement" id="HsoFFaL7HY!Il:J8#M5A">
+                <field name="INPUTNAME">do</field>
+                <field name="ALIGN">LEFT</field>
+                <value name="TYPE">
+                  <shadow type="type_null" id="eC/m]U:RzCEILZt~Z[|Y"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: accounting_entries_list</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="0pH}W;cv[6J_l]Lo*!:_"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="C1dqdsBKiJ,+Flwt!^Cz"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="+r:==UYh0H%4WPZ!s~Vc" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">indicator_from_accounting_entry_side</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="sQ53;aD(T*cFh*y28*=q">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Kq6,J9*Ab}RZ(}^6KP,^">
+            <field name="TEXT">Получить показатель по проводке</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="uM.##SsSx|V`JFBDq.#V">
+            <field name="INPUTNAME">accounting_entry_side</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="]isv!gQE.:}{_Km_^Tj2">
+                <field name="TEXT">Сторона проводки</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="kuScp70~z%ow3`by|Rx@"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="nirVUq.A.zS!B3K1IbHy">
+                <field name="INPUTNAME">indicator_list_src</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id=":oBPjo[5N]|ht6RG)T,r">
+                    <field name="TEXT">Показатели источника</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="01Hh.xy.HG90/@}um*(j"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="]ILyDV8w0ej1,P`9xZd:">
+                    <field name="INPUTNAME">indicator_list_dest</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="mBszzJ3f)E|*Ie^z@nOY">
+                        <field name="TEXT">Показатели приемника</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="o3JGbp8|:@|CD6j,,k%9"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="n|jZqwb=Fic1AJ3:/(MG">
+                        <field name="INPUTNAME">blacklist_detalization</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="q1:MhZgvk[mH*!33?#W`">
+                            <field name="TEXT">Черный список детализаций</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="FKm|-vdFp-NyL|10P~!X"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_value" id="aEE3xM+C%+vyNL*G)*`g">
+                            <field name="INPUTNAME">blacklist_accounts</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="s*j0$I7=]F!faVH4a5{0">
+                                <field name="TEXT">Черный список счетов</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="R,vwebKTbqBgz%DV{+r6"></shadow>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: indicator_from_accounting_entry_side</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="cG?2WS_^:t:%;^h=vD3;"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="uuid4" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">uuid4</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="ML7e2n?!+Q;O3hK}q`2V">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">Получить новый UUID</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: uuid4</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a55b80"></mutation>
+        <field name="HUE">330</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="+r:==UYh0H%4WPZ!s~Vc" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">obj_prop_get2</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="/nQ#SjqH0DPdooPrML}}">
+        <field name="INPUTNAME">PATH</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">get</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">item</field>
+                <field name="FIELDNAME">VAR</field>
+                <next>
+                  <block type="field_static" id="Pp:K3m7a|W@8G,B4JaoG">
+                    <field name="TEXT">prop</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="^WXrX,*5N~Tyv_LPF^J8"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: obj_prop_get2</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="{OET+-,)clXW2HcXL[(L"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#a55b80"></mutation>
+        <field name="HUE">330</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="+r:==UYh0H%4WPZ!s~Vc" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">obj_prop_set2</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="?)Ca6Z+IE{H+)bjz+:!O">
+        <field name="INPUTNAME">PATH</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">set</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">item</field>
+                <field name="FIELDNAME">VAR</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">prop</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="!|/KXjArOOLz}-NSqOnn"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="6ALl3iRah3=TXRs/.H@x">
+            <field name="INPUTNAME">VALUE</field>
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="`?W:.=hkmLjrZm-w/I7-">
+                <field name="TEXT">value</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="DR{2B32Lio.mcemJ@0{["></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: obj_prop_set2</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="cuhY.cTAd-1l;T^?}DJH"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="iC!ZC1#K?E#Bmnb$cNbo"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#a55b80"></mutation>
+        <field name="HUE">330</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_convert_files_to_pdf" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_convert_files_to_pdf</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="WExcm(54WEqzs[BFKfAf">
+        <field name="INPUTNAME">doc</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=".FMCP-X9+lYsQKv_]}cH">
+            <field name="TEXT">Сконвертировать в PDF/A</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="~)=_E04/Jd{V+XY.38?a"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">BlockType: saby_convert_files_to_pdf</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="d;QKf^}39op.caFx/?Jv">
+        <mutation colour="#995ba5"></mutation>
+        <field name="HUE">290</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="ovhq41(1lVCKN2PgY%@|" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">authorization</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="]7@Qcr8AXL1]RtM2_9kU">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="p]S}}XXk%).tH6r(^my+">
+            <field name="TEXT">Авторизация</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="{SrL@SqtdH,%D@lLSE^k">
+            <field name="INPUTNAME">host</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=")B-ypAArUNJJNprQi#E]">
+                <field name="TEXT">URL</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="b4T0/u;e=kBG9Y)w)}4a"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="u].b/c:hk_I3-^^?o~?Z">
+                <field name="INPUTNAME">login</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="=C,{GUc{NInPCGYTWCL}">
+                    <field name="TEXT">Пользователь</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="0Oe/`;zbq@U6T5L[@/Q8"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="!lY?Y_`k?V5Ef({g5s%3">
+                    <field name="INPUTNAME">password</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="TF:.kvKrmqyKIa;nIWGH">
+                        <field name="TEXT">Пароль</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="T52-{=Z[]viUX@$SX?wU"></shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dJ88m?8ohu_MSk.NJ7wH" deletable="false" movable="false">
+        <field name="TEXT">BlockType: authorization</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="UJ9By{FdHZimyLPVmE,+" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="z^dzN+[OW#,_E@kovN51"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id=":A3z|ZFL.jf_Pt+b/fk:"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="i%Ih(ef6#Fo2UiWy)HQh">
+        <mutation colour="#a5805b"></mutation>
+        <field name="HUE">30</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="6~o7a?cQZgS7xl_N+G16" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">sap_group_by</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="P+aLOa3X{R$,|W!$ZX3L">
+        <field name="INPUTNAME">value</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="sIM;CIxMJ$z!C[:93eFu">
+            <field name="TEXT">Группировка</field>
+            <next>
+              <block type="field_variable" id="[P1K}9l4:$(HWz8MrxR]">
+                <field name="TEXT">таблицы</field>
+                <field name="FIELDNAME">table</field>
+                <next>
+                  <block type="field_static" id="LtNvZ)5T3+jPUdi$fJHy">
+                    <field name="TEXT">по признаку</field>
+                    <next>
+                      <block type="field_input" id="_{ief7Z.Q1Z1FuLTQy[0">
+                        <field name="TEXT">default</field>
+                        <field name="FIELDNAME">param</field>
+                        <next>
+                          <block type="field_static" id=")mO!^;7B0PJS{nKC/q#$">
+                            <field name="TEXT">в</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="a*h?hv2k`b+v}JE{c4T{"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=".UN)W$Y$SB;es1/V)KI?" deletable="false" movable="false">
+        <field name="TEXT">BlockType: sap_group_by</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="CT``vFy;!caCHQ/Z0xZ9" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="8_5jQT!)Hl@-J7@!.2kd"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="RFe@bBSY?)wYzt|c?0vD">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="#=MIO0c^*RxZBf*G`jxO" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">c1_read_changes</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="TM]5GR~2-~i0_xQC?l[i">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=";K.FEKgwt`q?sZ9W(MJx">
+            <field name="TEXT">Получить изменения ИС</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Ntd)@{E=)qCIC`G_2{{}" deletable="false" movable="false">
+        <field name="TEXT">Получить ссылка на измененные объекты по узлу плана обмена. BlockType: c1_read_changes</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="l}w?f$hF}c5/U,L7@GOy" deletable="false" movable="false">
+        <field name="TEXT">&#10;                    https://n.sbis.ru/saby-integration/knowledge?article=ad99beb7-8f86-486f-b8cf-68183c4387d0&#10;                </field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="x)SivYGpS)OLP2)!t7J["></shadow>
+      <block type="type_null" id="$A^Np-SCO@sE?p$O~?2v"></block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="cd5VL[gx)7/wu63oQ_Q[">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="#=MIO0c^*RxZBf*G`jxO" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="TOP"></mutation>
+    <field name="NAME">extsys_read_changes</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">TOP</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="TM]5GR~2-~i0_xQC?l[i">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=";K.FEKgwt`q?sZ9W(MJx">
+            <field name="TEXT">Добавить изменения ИС в обмен</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Ntd)@{E=)qCIC`G_2{{}" deletable="false" movable="false">
+        <field name="TEXT">BlockType: extsys_read_changes</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="l}w?f$hF}c5/U,L7@GOy" deletable="false" movable="false">
+        <field name="TEXT">&#10;                    https://n.sbis.ru/saby-integration/knowledge?article=ad99beb7-8f86-486f-b8cf-68183c4387d0&#10;                </field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="vp)oun(*XP7Fvum;26|S"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="cd5VL[gx)7/wu63oQ_Q[">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="Mt{P#,b$!+0g,3I@9#of" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">obj_action_list_view_toolbar_search</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="X)s?yr)qG]^r$,wXGvbS">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="O057J=.}oM*k*9)XT/64">
+            <field name="TEXT">Оформление списка. Поле поиска</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="}:0J0l9R:4h{{?VhPr$m" deletable="false" movable="false">
+        <field name="TEXT">Создаёт поле поиска в панели инструментов для списков документов/справочников. BlockType: obj_action_list_view_toolbar_search</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="zRQ3#`R]eif45h%oyj}}" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/57fb1401-f988-4928-8a02-f05c33f42dd7</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="N+M*.$,_cukW9Z!P!V@y"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="x`=z~z%R?:RIpX2__UAg">
+        <mutation colour="#a5705b"></mutation>
+        <field name="HUE">17</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id=",8:CL@u^0%Vs^J%*svXV">
+        <field name="INPUTNAME">METHOD</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=")zWyqmMteb;?[!.No0!A">
+            <field name="TEXT">Saby выполнить</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="fbHjiwJW+8XvN$1mL=4M"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+            <field name="INPUTNAME">PARAMS</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                <field name="TEXT">Параметры</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">Вызывает метод Saby API. BlockType: saby</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/91e22c0e-920a-4b3c-ac40-96bb1509744e</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#5ba593"></mutation>
+        <field name="HUE">165</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">saby_edo_list</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id=",8:CL@u^0%Vs^J%*svXV">
+        <field name="INPUTNAME">METHOD</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id=")zWyqmMteb;?[!.No0!A">
+            <field name="TEXT">Saby получить список</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="fbHjiwJW+8XvN$1mL=4M"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+            <field name="INPUTNAME">FILTER</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                <field name="TEXT">Фильтр</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="%?Cw/?)/m5616{gRIM_=">
+                <field name="INPUTNAME">NAVIGATION</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="fa8f8qs@ujf{PkmN8P%v">
+                    <field name="TEXT">Навигация</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="=$jM]Zcd$n7($R8UN8m^"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">Вызывает списочный метод Saby ЭДО. BlockType: saby_edo_list</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/c5abb678-0280-444e-89fd-416e92e67691</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#5ba593"></mutation>
+        <field name="HUE">165</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="+r:==UYh0H%4WPZ!s~Vc" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">accounting_entries_list2</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="JMyN,;{IN9h;fxXJEhb?">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">Для</field>
+            <next>
+              <block type="field_variable" id="}@CVN*]~`6NS6oBbsg.Q">
+                <field name="TEXT">Документ</field>
+                <field name="FIELDNAME">var</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">из списка проводок 2</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id="g0zN8^Q./03U~{M{KCV`">
+            <field name="ALIGN">LEFT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="-Z^.5ciFn7X3,lu}:46g">
+                <field name="TEXT">Выгружать проводки</field>
+                <next>
+                  <block type="field_checkbox" id=",$[S`3L;2UYJ$vlt;b,S">
+                    <field name="CHECKED">FALSE</field>
+                    <field name="FIELDNAME">UNLOADING_TRANSACTIONS</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="input_dummy" id="0$l(VSofg@r#uV7ZAS^O">
+                <field name="ALIGN">LEFT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="si2aVo#}Zo@c)4zwSo;Z">
+                    <field name="TEXT">Неизвестные как БухСправки</field>
+                    <next>
+                      <block type="field_checkbox" id="XDCL5B(evWgg#={u=I2b">
+                        <field name="CHECKED">TRUE</field>
+                        <field name="FIELDNAME">UNKNOWN_AS_ACCOUNTING_CERTIFICATES</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="input_value" id="uM.##SsSx|V`JFBDq.#V">
+                    <field name="INPUTNAME">filter</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="]isv!gQE.:}{_Km_^Tj2">
+                        <field name="TEXT">Фильтр</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="kuScp70~z%ow3`by|Rx@"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="?vQYNGks~zJO9JXHw4St">
+                        <field name="INPUTNAME">indicator_list_src</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="w]TNI2GCFB;*1}SR|h,T">
+                            <field name="TEXT">Показатели источника</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="-o}@fs@z:#0WHKcpvHm8"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_value" id="n1w5CjU[ziqls2%]h8/!">
+                            <field name="INPUTNAME">indicator_list_dest</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="k+Ed#sm~tCuZ.MYusI?i">
+                                <field name="TEXT">Показатели приемника</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="aw_fS6-jWAiox$]eCmZq"></shadow>
+                            </value>
+                            <next>
+                              <block type="input_value" id="4fLoU/Ct55Y:`a.!LAO%">
+                                <field name="INPUTNAME">blacklist_detalization</field>
+                                <field name="ALIGN">RIGHT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="xL|WHUSqaaQhquPacNXf">
+                                    <field name="TEXT">Черный список детализаций</field>
+                                  </block>
+                                </statement>
+                                <value name="TYPE">
+                                  <shadow type="type_null" id="3ilDmnInp1%q%sjpCtLO"></shadow>
+                                </value>
+                                <next>
+                                  <block type="input_value" id="Rr)T0rpqCHYEpeulg?3|">
+                                    <field name="INPUTNAME">blacklist_accounts</field>
+                                    <field name="ALIGN">RIGHT</field>
+                                    <statement name="FIELDS">
+                                      <block type="field_static" id="F3m:H:3;}ub?ul5@AGA`">
+                                        <field name="TEXT">Черный список счетов</field>
+                                      </block>
+                                    </statement>
+                                    <value name="TYPE">
+                                      <shadow type="type_null" id="b+GK;3uQ%_VF}ph,.C{o"></shadow>
+                                    </value>
+                                    <next>
+                                      <block type="input_statement" id="HsoFFaL7HY!Il:J8#M5A">
+                                        <field name="INPUTNAME">do</field>
+                                        <field name="ALIGN">LEFT</field>
+                                        <value name="TYPE">
+                                          <shadow type="type_null" id="eC/m]U:RzCEILZt~Z[|Y"></shadow>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">Получает проводки по заданному фильтру, группирует их по документам-регистраторам и для каждого документа с проводками выполняет вложенные в данный блок действия. Использует механизм MultiThreadLoop. BlockType: accounting_entries_list2</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/bdbe2626-66bb-4892-b956-cb69a53c5266</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="0pH}W;cv[6J_l]Lo*!:_"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="C1dqdsBKiJ,+Flwt!^Cz"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">object_get_attachments</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="m#6i;Z]M@UU1@I]+WiWd">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Z_LTuMqhhl-.l9qyEYzN">
+            <field name="TEXT">Получить прикрепленные файлы</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id=",8:CL@u^0%Vs^J%*svXV">
+            <field name="INPUTNAME">OBJECT</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=";3FM7MLP-uA!H0!Ee(_w">
+                <field name="TEXT">к объекту</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="fbHjiwJW+8XvN$1mL=4M"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="%?Cw/?)/m5616{gRIM_=">
+                <field name="INPUTNAME">NAMES</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="fa8f8qs@ujf{PkmN8P%v">
+                    <field name="TEXT">с именами</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="=$jM]Zcd$n7($R8UN8m^"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+                    <field name="INPUTNAME">CHANGED_AFTER</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                        <field name="TEXT">измененные после</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_dummy" id="uYV0USP#!v^$Yk3V@^6?">
+                        <field name="ALIGN">LEFT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="Z=bV+?H[h8M_b|w!b`R7">
+                            <field name="TEXT">Получать двоичные данные</field>
+                            <next>
+                              <block type="field_checkbox" id="Tk;F;2ewZ/LK@t1|,59c">
+                                <field name="CHECKED">FALSE</field>
+                                <field name="FIELDNAME">RECEIVING_BINARY_DATA</field>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">Возвращает массив прикрепленных файлов к объекту. BlockType: object_get_attachments</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/38f45b27-4c3d-4c87-ae92-64a24b9492d8</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="saby_update" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">object_get_attachments_EDO</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="m#6i;Z]M@UU1@I]+WiWd">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="Z_LTuMqhhl-.l9qyEYzN">
+            <field name="TEXT">Получить документы ЭДО</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id=",8:CL@u^0%Vs^J%*svXV">
+            <field name="INPUTNAME">OBJECT</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id=";3FM7MLP-uA!H0!Ee(_w">
+                <field name="TEXT">по объекту</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="fbHjiwJW+8XvN$1mL=4M"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="%?Cw/?)/m5616{gRIM_=">
+                <field name="INPUTNAME">NAMES</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="fa8f8qs@ujf{PkmN8P%v">
+                    <field name="TEXT">с именами</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="=$jM]Zcd$n7($R8UN8m^"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id=".rFH!PwflUOaodyj-yQD">
+                    <field name="INPUTNAME">CHANGED_AFTER</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="8ame+RCjxALYA0SPWR7(">
+                        <field name="TEXT">измененные после</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="p?}ozMH~VasEY3_;-H+:"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_dummy" id="uYV0USP#!v^$Yk3V@^6?">
+                        <field name="ALIGN">LEFT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="Z=bV+?H[h8M_b|w!b`R7">
+                            <field name="TEXT">Получать двоичные данные</field>
+                            <next>
+                              <block type="field_checkbox" id="Tk;F;2ewZ/LK@t1|,59c">
+                                <field name="CHECKED">FALSE</field>
+                                <field name="FIELDNAME">RECEIVING_BINARY_DATA</field>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="YNPA$K|S#Mye+nJIGFNZ" deletable="false" movable="false">
+        <field name="TEXT">Возвращает массив документов ЭДО по объекту. BlockType: object_get_attachments_EDO</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="|o;Wg^5ucTu+}b@+F_Z1" deletable="false" movable="false">
+        <field name="TEXT">https://n.sbis.ru/article/95582b4d-903b-405e-a707-944732016ea8</field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="hJwzc=`?8DjI6#.Z!!^p"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id=".8Zp~4wicp{|VPA7^THc">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block></xml>

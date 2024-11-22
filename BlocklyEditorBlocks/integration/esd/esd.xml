@@ -1,0 +1,649 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="]tR|OC:IZ,,*.5YK~U!;" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">esd_order_for_shipping</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="fE%D}A7C6/tl)|l-:HQ[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="JSeJ|f4MkS:L@oWvJ]qP">
+            <field name="TEXT">Заказ на перевозку</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="[U:pQS{*+B}}ZY-sz9.H">
+            <field name="INPUTNAME">Документ.Тип</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="trrUFKgheH(cJYa4lqs9">
+                <field name="TEXT">Тип</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="OS%,~*z$)tgn~XX[8:F5"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="VYLPTD`j6HuNBLDu2BeX">
+                <field name="INPUTNAME">ГрузоотправительСсылка</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="KS_N6=g!8(AmeS3mSLc#">
+                    <field name="TEXT">Грузоотправитель</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="%!()#_i;/:B;e_C_n;kE"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="Tr[oj[UEKariU1G}OqqB">
+                    <field name="INPUTNAME">ГрузоперевозчикСсылка</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="ZT=Bv0?[[-TF{1.iW$[a">
+                        <field name="TEXT">Грузоперевозчик</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="y]ZMt8.A_3{=fl;$]H9^"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="rBLA/SLgqM2_t(vxC4((">
+                        <field name="INPUTNAME">ПараметрыТС.Вместимость</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="ZcslJU,n8uT#4Im1GgZm">
+                            <field name="TEXT">Вместимость ТС</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="k7to1~;(!^t2QlhPZpiH"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_value" id="?!!Y+2xwdUJAJA=9mxy5">
+                            <field name="INPUTNAME">ПараметрыТС.Грузоподъемность</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="oWm|m,P=TV_;ekW~#PK)">
+                                <field name="TEXT">Грузоподъемность ТС</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="Z01fKQ6JX{%{dz|I%i4c"></shadow>
+                            </value>
+                            <next>
+                              <block type="input_value" id="7EuLVW.T|U67yh@QH-k-">
+                                <field name="INPUTNAME">ПараметрыТС.Тип</field>
+                                <field name="ALIGN">RIGHT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="7rHBi=6VvEGX;JXq(6%1">
+                                    <field name="TEXT">Тип ТС</field>
+                                  </block>
+                                </statement>
+                                <value name="TYPE">
+                                  <shadow type="type_null" id="mX.?$g+`4%zBL6Olr.#x"></shadow>
+                                </value>
+                                <next>
+                                  <block type="input_value" id="mA;IOLgFrrZj*]]Mixa-">
+                                    <field name="INPUTNAME">ПараметрыТС.ТипКузова</field>
+                                    <field name="ALIGN">RIGHT</field>
+                                    <statement name="FIELDS">
+                                      <block type="field_static" id="0QdBJvB)jVoP:uWqjjSW">
+                                        <field name="TEXT">Тип кузова ТС</field>
+                                      </block>
+                                    </statement>
+                                    <value name="TYPE">
+                                      <shadow type="type_null" id="!d:jOY_W)4,KU$VRX5o2"></shadow>
+                                    </value>
+                                    <next>
+                                      <block type="input_value" id="3ix|8{XAdNaS}F)ARH|K">
+                                        <field name="INPUTNAME">ПараметрыТС.ТипПогрузки</field>
+                                        <field name="ALIGN">RIGHT</field>
+                                        <statement name="FIELDS">
+                                          <block type="field_static" id="gnaMOt4^0}^4qG16:Zb%">
+                                            <field name="TEXT">Тип погрузки ТС</field>
+                                          </block>
+                                        </statement>
+                                        <value name="TYPE">
+                                          <shadow type="type_null" id="Bq,-RR}TUpl8E|/%g$Cv"></shadow>
+                                        </value>
+                                        <next>
+                                          <block type="input_value" id="xNr9P_F;*g7Pkl?7L%`B">
+                                            <field name="INPUTNAME">ПараметрыТС.Другое</field>
+                                            <field name="ALIGN">RIGHT</field>
+                                            <statement name="FIELDS">
+                                              <block type="field_static" id="l[@seU_]3g=Y$xi}(va9">
+                                                <field name="TEXT">Доп. информация ТС</field>
+                                              </block>
+                                            </statement>
+                                            <value name="TYPE">
+                                              <shadow type="type_null" id="AIf1k^VA8jpE{_]r*^%$"></shadow>
+                                            </value>
+                                            <next>
+                                              <block type="input_value" id="S(ON3O?A%n?zbViaZNoi">
+                                                <field name="INPUTNAME">Маршрут.Отправление.АдресТекст</field>
+                                                <field name="ALIGN">RIGHT</field>
+                                                <statement name="FIELDS">
+                                                  <block type="field_static" id="{3[0B_YL9d86S3$*@yUB">
+                                                    <field name="TEXT">Адрес отправления</field>
+                                                  </block>
+                                                </statement>
+                                                <value name="TYPE">
+                                                  <shadow type="type_null" id="+yXm{hHejAJSiEzO*~h5"></shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="input_value" id="[6o-vtE:ZO:`07#^jM{f">
+                                                    <field name="INPUTNAME">Маршрут.Отправление.ПодачаТС.ДатаВремя</field>
+                                                    <field name="ALIGN">RIGHT</field>
+                                                    <statement name="FIELDS">
+                                                      <block type="field_static" id="2U0LTQ-tCMsN5CB|:Zaw">
+                                                        <field name="TEXT">Дата подачи ТС</field>
+                                                      </block>
+                                                    </statement>
+                                                    <value name="TYPE">
+                                                      <shadow type="type_null" id="+(3#BCDU)3Za(E*kD/Pk"></shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="input_value" id="E8t3mOT?|Xr+gwex/DbM">
+                                                        <field name="INPUTNAME">Маршрут.Отправление.ПодачаТС.ПредельныйИнтервалВремени</field>
+                                                        <field name="ALIGN">RIGHT</field>
+                                                        <statement name="FIELDS">
+                                                          <block type="field_static" id="6X0;?8(SS;@c][)sFNKJ">
+                                                            <field name="TEXT">Интервал подачи ТС</field>
+                                                          </block>
+                                                        </statement>
+                                                        <value name="TYPE">
+                                                          <shadow type="type_null" id="-T`2B,.Yn2_lLvck1[15"></shadow>
+                                                        </value>
+                                                        <next>
+                                                          <block type="input_value" id="SYyKT$Ky[yI^D.xH1[Vr">
+                                                            <field name="INPUTNAME">Маршрут.КонечныйПункт.Название</field>
+                                                            <field name="ALIGN">RIGHT</field>
+                                                            <statement name="FIELDS">
+                                                              <block type="field_static" id="2cz-vbX*@4da!HfW)s*^">
+                                                                <field name="TEXT">Адрес конечного пункта</field>
+                                                              </block>
+                                                            </statement>
+                                                            <value name="TYPE">
+                                                              <shadow type="type_null" id="),H#W8I%|-RgE@HDuCGn"></shadow>
+                                                            </value>
+                                                            <next>
+                                                              <block type="input_value" id="7+BKwEY%-Yk-]eTqN0fW">
+                                                                <field name="INPUTNAME">Маршрут.ПромежуточныйПункт</field>
+                                                                <field name="ALIGN">RIGHT</field>
+                                                                <statement name="FIELDS">
+                                                                  <block type="field_static" id="|[tat*5zreaFC`}pMZar">
+                                                                    <field name="TEXT">Промежуточные точки маршрута</field>
+                                                                  </block>
+                                                                </statement>
+                                                                <value name="TYPE">
+                                                                  <shadow type="type_null" id="Q|KLWR7)hD=pH5:@yo^o"></shadow>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="input_value" id="5FY_Q0]$fQ0n`I~Zvj6i">
+                                                                    <field name="INPUTNAME">Маршрут.Пункт</field>
+                                                                    <field name="ALIGN">RIGHT</field>
+                                                                    <statement name="FIELDS">
+                                                                      <block type="field_static" id="S?aWVD*t^/i:yrn)x.jy">
+                                                                        <field name="TEXT">Пункты маршрута</field>
+                                                                      </block>
+                                                                    </statement>
+                                                                    <value name="TYPE">
+                                                                      <shadow type="type_null" id=")VbX][Ue9([pkPm;cx/S"></shadow>
+                                                                    </value>
+                                                                    <next>
+                                                                      <block type="input_value" id="t8Q.9=FI8FGME!h|Ko_?">
+                                                                        <field name="INPUTNAME">УсловияПеревозки.КлиматическийРежим.Влажность.Минимальная</field>
+                                                                        <field name="ALIGN">RIGHT</field>
+                                                                        <statement name="FIELDS">
+                                                                          <block type="field_static" id="Mx#Yg*l9LO}@HNK?{(Kj">
+                                                                            <field name="TEXT">Минимальная влажность</field>
+                                                                          </block>
+                                                                        </statement>
+                                                                        <value name="TYPE">
+                                                                          <shadow type="type_null" id="=t3+f[Ud:=k4%3Eoi!PN"></shadow>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="input_value" id="!#jv^5yhF*%k1lD}o4-h">
+                                                                            <field name="INPUTNAME">УсловияПеревозки.КлиматическийРежим.Влажность.Максимальная</field>
+                                                                            <field name="ALIGN">RIGHT</field>
+                                                                            <statement name="FIELDS">
+                                                                              <block type="field_static" id="`Po#Gq3i6c=.Yu{.KpV(">
+                                                                                <field name="TEXT">Максимальная влажность</field>
+                                                                              </block>
+                                                                            </statement>
+                                                                            <value name="TYPE">
+                                                                              <shadow type="type_null" id="0pYCjn7Hbu4LQ6!{!_ZJ"></shadow>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="input_value" id="WJ{(G7[:rx@Rd0KAQN]E">
+                                                                                <field name="INPUTNAME">УсловияПеревозки.КлиматическийРежим.Температура.Минимальная</field>
+                                                                                <field name="ALIGN">RIGHT</field>
+                                                                                <statement name="FIELDS">
+                                                                                  <block type="field_static" id="Iyp(?=iM,7,/_S[0(8bd">
+                                                                                    <field name="TEXT">Минимальная температура</field>
+                                                                                  </block>
+                                                                                </statement>
+                                                                                <value name="TYPE">
+                                                                                  <shadow type="type_null" id="WPyJ?dL26Fkt05K!D_0q"></shadow>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="input_value" id="#N[#q8jDR`vO4AIy0#ez">
+                                                                                    <field name="INPUTNAME">УсловияПеревозки.КлиматическийРежим.Температура.Максимальная</field>
+                                                                                    <field name="ALIGN">RIGHT</field>
+                                                                                    <statement name="FIELDS">
+                                                                                      <block type="field_static" id="$!x8RJ[xAg8aHF`Xup%!">
+                                                                                        <field name="TEXT">Максимальная температура</field>
+                                                                                      </block>
+                                                                                    </statement>
+                                                                                    <value name="TYPE">
+                                                                                      <shadow type="type_null" id="(`wK48vIDMxo|fjb:AuP"></shadow>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="input_value" id="pIyXPFH@C00ED6tE97wp">
+                                                                                        <field name="INPUTNAME">УсловияПеревозки.Иные</field>
+                                                                                        <field name="ALIGN">RIGHT</field>
+                                                                                        <statement name="FIELDS">
+                                                                                          <block type="field_static" id="v%R+X)`M^=M)XB27fiwe">
+                                                                                            <field name="TEXT">Иные условия перевозки</field>
+                                                                                          </block>
+                                                                                        </statement>
+                                                                                        <value name="TYPE">
+                                                                                          <shadow type="type_null" id="qDKTk((Nl2CM,Q2Lu_sz"></shadow>
+                                                                                        </value>
+                                                                                        <next>
+                                                                                          <block type="input_value" id="G4/AN*|O!1Qh`:dGBA;O">
+                                                                                            <field name="INPUTNAME">УсловияПеревозки.ПредельныйСрок</field>
+                                                                                            <field name="ALIGN">RIGHT</field>
+                                                                                            <statement name="FIELDS">
+                                                                                              <block type="field_static" id="8k0i=[_ICQUV(tOjeUNX">
+                                                                                                <field name="TEXT">Предельный срок перевозки</field>
+                                                                                              </block>
+                                                                                            </statement>
+                                                                                            <value name="TYPE">
+                                                                                              <shadow type="type_null" id="bhp7{996CAy5@DQ2iB!N"></shadow>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="input_value" id="V1@gJLZjuJmFv;U`$4@.">
+                                                                                                <field name="INPUTNAME">УсловияПеревозки.ТребованияПоПеревозкеПищевыхПродуктов</field>
+                                                                                                <field name="ALIGN">RIGHT</field>
+                                                                                                <statement name="FIELDS">
+                                                                                                  <block type="field_static" id="d`vH`GK$qW_K5X[tp6Ic">
+                                                                                                    <field name="TEXT">Требования по перевозке пищевых продуктов</field>
+                                                                                                  </block>
+                                                                                                </statement>
+                                                                                                <value name="TYPE">
+                                                                                                  <shadow type="type_null" id="[#*IQJ$/(W?F`hmy]vrH"></shadow>
+                                                                                                </value>
+                                                                                                <next>
+                                                                                                  <block type="input_value" id="g!4wCUhi`vdUg|_?XK`z">
+                                                                                                    <field name="INPUTNAME">УсловияПеревозки.УказанияНорм</field>
+                                                                                                    <field name="ALIGN">RIGHT</field>
+                                                                                                    <statement name="FIELDS">
+                                                                                                      <block type="field_static" id="*7UR|RXiUlt.A2k8D8}+">
+                                                                                                        <field name="TEXT">Указания норм</field>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                    <value name="TYPE">
+                                                                                                      <shadow type="type_null" id="B8afd#.(`?J#16Eg8IA/"></shadow>
+                                                                                                    </value>
+                                                                                                    <next>
+                                                                                                      <block type="input_value" id="rpIfc/29Oh/f,Si8,}[)">
+                                                                                                        <field name="INPUTNAME">Файл.Составитель.Наименование</field>
+                                                                                                        <field name="ALIGN">RIGHT</field>
+                                                                                                        <statement name="FIELDS">
+                                                                                                          <block type="field_static" id="_ND|{*NFh}[uEjg{=`J(">
+                                                                                                            <field name="TEXT">Наименование составителя</field>
+                                                                                                          </block>
+                                                                                                        </statement>
+                                                                                                        <value name="TYPE">
+                                                                                                          <shadow type="type_null" id="*H=j,~V:sBI{]^lw]~F]"></shadow>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="input_dummy" id="oin4}s%!6xTbUBsQ@dhW">
+                                                                                                            <field name="ALIGN">LEFT</field>
+                                                                                                            <statement name="FIELDS">
+                                                                                                              <block type="field_static" id="[i)Hu6so4Q`$=Zp$~M#{">
+                                                                                                                <field name="TEXT">Договор</field>
+                                                                                                              </block>
+                                                                                                            </statement>
+                                                                                                            <next>
+                                                                                                              <block type="input_value" id="o|%LUsovQaj4yI*N%ib4">
+                                                                                                                <field name="INPUTNAME">Договор.Дата</field>
+                                                                                                                <field name="ALIGN">RIGHT</field>
+                                                                                                                <statement name="FIELDS">
+                                                                                                                  <block type="field_static" id="ftRED#3u_ZF:`@R|yq4f">
+                                                                                                                    <field name="TEXT">Дата</field>
+                                                                                                                  </block>
+                                                                                                                </statement>
+                                                                                                                <value name="TYPE">
+                                                                                                                  <shadow type="type_null" id="/Te!F5Cf=LTIUsB=6]jK"></shadow>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="input_value" id="SqS/1vaD.GfnPpLo]ONd">
+                                                                                                                    <field name="INPUTNAME">Договор.Номер</field>
+                                                                                                                    <field name="ALIGN">RIGHT</field>
+                                                                                                                    <statement name="FIELDS">
+                                                                                                                      <block type="field_static" id="1|y;`v?oMGE?j*plo.i0">
+                                                                                                                        <field name="TEXT">Номер</field>
+                                                                                                                      </block>
+                                                                                                                    </statement>
+                                                                                                                    <value name="TYPE">
+                                                                                                                      <shadow type="type_null" id="}1e_2d-K]i$EQzBFC{;_"></shadow>
+                                                                                                                    </value>
+                                                                                                                    <next>
+                                                                                                                      <block type="input_value" id="%o*j./tH=#[[w:Hyh`|x">
+                                                                                                                        <field name="INPUTNAME">Договор.Наименование</field>
+                                                                                                                        <field name="ALIGN">RIGHT</field>
+                                                                                                                        <statement name="FIELDS">
+                                                                                                                          <block type="field_static" id="++@TQSvBuwQ`e^UJMRUT">
+                                                                                                                            <field name="TEXT">Наименование</field>
+                                                                                                                          </block>
+                                                                                                                        </statement>
+                                                                                                                        <value name="TYPE">
+                                                                                                                          <shadow type="type_null" id="PM_)+d0J(*r.aVZsu2jL"></shadow>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                          <block type="input_value" id="LE`-ds6Rd9g%ynt=*wU)">
+                                                                                                                            <field name="INPUTNAME">Договор.Стороны</field>
+                                                                                                                            <field name="ALIGN">RIGHT</field>
+                                                                                                                            <statement name="FIELDS">
+                                                                                                                              <block type="field_static" id="Y]*t,UqzVeA]c|GgbvK`">
+                                                                                                                                <field name="TEXT">Стороны</field>
+                                                                                                                              </block>
+                                                                                                                            </statement>
+                                                                                                                            <value name="TYPE">
+                                                                                                                              <shadow type="type_null" id="^[BTeVt(TG^6dZ(x;bq."></shadow>
+                                                                                                                            </value>
+                                                                                                                            <next>
+                                                                                                                              <block type="input_dummy" id="H~8(;R(ei6T5#29).=8A">
+                                                                                                                                <field name="ALIGN">LEFT</field>
+                                                                                                                                <statement name="FIELDS">
+                                                                                                                                  <block type="field_static" id=")7=uVpf_KIPD9,@{|Akk">
+                                                                                                                                    <field name="TEXT">Основание составления</field>
+                                                                                                                                  </block>
+                                                                                                                                </statement>
+                                                                                                                                <next>
+                                                                                                                                  <block type="input_value" id="4EVO~*J%,:zgHw6,V6NW">
+                                                                                                                                    <field name="INPUTNAME">Файл.Составитель.Основание.Документ.Дата</field>
+                                                                                                                                    <field name="ALIGN">RIGHT</field>
+                                                                                                                                    <statement name="FIELDS">
+                                                                                                                                      <block type="field_static" id="pVRO2][5YX/lVWoO=-;F">
+                                                                                                                                        <field name="TEXT">Дата</field>
+                                                                                                                                      </block>
+                                                                                                                                    </statement>
+                                                                                                                                    <value name="TYPE">
+                                                                                                                                      <shadow type="type_null" id="W}C633s]xsKPX9!Tme!X"></shadow>
+                                                                                                                                    </value>
+                                                                                                                                    <next>
+                                                                                                                                      <block type="input_value" id="ZC=9Ta7~WwR2-4U_u/v`">
+                                                                                                                                        <field name="INPUTNAME">Файл.Составитель.Основание.Документ.Номер</field>
+                                                                                                                                        <field name="ALIGN">RIGHT</field>
+                                                                                                                                        <statement name="FIELDS">
+                                                                                                                                          <block type="field_static" id="0i^sD{pApby-Ej;/[$eL">
+                                                                                                                                            <field name="TEXT">Номер</field>
+                                                                                                                                          </block>
+                                                                                                                                        </statement>
+                                                                                                                                        <value name="TYPE">
+                                                                                                                                          <shadow type="type_null" id="HriqJ98E0SHEf%J+%h-n"></shadow>
+                                                                                                                                        </value>
+                                                                                                                                        <next>
+                                                                                                                                          <block type="input_value" id="OBFeIqrks{eRbj!SN:Dv">
+                                                                                                                                            <field name="INPUTNAME">Файл.Составитель.Основание.Документ.Наименование</field>
+                                                                                                                                            <field name="ALIGN">RIGHT</field>
+                                                                                                                                            <statement name="FIELDS">
+                                                                                                                                              <block type="field_static" id="s=GvTI-3q?jR]MTc-$VY">
+                                                                                                                                                <field name="TEXT">Наименование</field>
+                                                                                                                                              </block>
+                                                                                                                                            </statement>
+                                                                                                                                            <value name="TYPE">
+                                                                                                                                              <shadow type="type_null" id="]`7KuwS=m37E#Dv})VHX"></shadow>
+                                                                                                                                            </value>
+                                                                                                                                            <next>
+                                                                                                                                              <block type="input_value" id="fQvy5yrypy{S2wCv~F~n">
+                                                                                                                                                <field name="INPUTNAME">Файл.Составитель.Основание.Документ.ДополнительныеСведения</field>
+                                                                                                                                                <field name="ALIGN">RIGHT</field>
+                                                                                                                                                <statement name="FIELDS">
+                                                                                                                                                  <block type="field_static" id="9i+P0`~k-tepyXk$Wf]j">
+                                                                                                                                                    <field name="TEXT">Доп. сведения</field>
+                                                                                                                                                  </block>
+                                                                                                                                                </statement>
+                                                                                                                                                <value name="TYPE">
+                                                                                                                                                  <shadow type="type_null" id="pz8^la3P9P,)j;h]z0|y"></shadow>
+                                                                                                                                                </value>
+                                                                                                                                                <next>
+                                                                                                                                                  <block type="input_value" id="DKyTx|O!?J|?eT8$+Tt(">
+                                                                                                                                                    <field name="INPUTNAME">Файл.Составитель.Основание.Документ.Идентификатор</field>
+                                                                                                                                                    <field name="ALIGN">RIGHT</field>
+                                                                                                                                                    <statement name="FIELDS">
+                                                                                                                                                      <block type="field_static" id="5Ns7X?DCt_3FL_^0M.{Z">
+                                                                                                                                                        <field name="TEXT">Идентификатор</field>
+                                                                                                                                                      </block>
+                                                                                                                                                    </statement>
+                                                                                                                                                    <value name="TYPE">
+                                                                                                                                                      <shadow type="type_null" id="XJJ^|#P,j]I;pO[-uZi{"></shadow>
+                                                                                                                                                    </value>
+                                                                                                                                                    <next>
+                                                                                                                                                      <block type="input_value" id="P3JQ+sC9ZmYgoo+4EI#w">
+                                                                                                                                                        <field name="INPUTNAME">Файл.Составитель.Основание.Документ.Стороны</field>
+                                                                                                                                                        <field name="ALIGN">RIGHT</field>
+                                                                                                                                                        <statement name="FIELDS">
+                                                                                                                                                          <block type="field_static" id="7HQePD{16ba9e,{B)9mA">
+                                                                                                                                                            <field name="TEXT">Стороны</field>
+                                                                                                                                                          </block>
+                                                                                                                                                        </statement>
+                                                                                                                                                        <value name="TYPE">
+                                                                                                                                                          <shadow type="type_null" id="O[,uj/VW9l%_(e3Dlh+7"></shadow>
+                                                                                                                                                        </value>
+                                                                                                                                                      </block>
+                                                                                                                                                    </next>
+                                                                                                                                                  </block>
+                                                                                                                                                </next>
+                                                                                                                                              </block>
+                                                                                                                                            </next>
+                                                                                                                                          </block>
+                                                                                                                                        </next>
+                                                                                                                                      </block>
+                                                                                                                                    </next>
+                                                                                                                                  </block>
+                                                                                                                                </next>
+                                                                                                                              </block>
+                                                                                                                            </next>
+                                                                                                                          </block>
+                                                                                                                        </next>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Fg^yIMYb`Se{aIc2C=jL" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="a.hmOJ9ZhLCwfp3C@+Jc" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="BVZQ5-+Kucjc5fDz6Ax6"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%o3/mHaA7A7dSN}2#*FC">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="]tR|OC:IZ,,*.5YK~U!;" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">esd_route_point</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="fE%D}A7C6/tl)|l-:HQ[">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="JSeJ|f4MkS:L@oWvJ]qP">
+            <field name="TEXT">Пункт маршрута</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="[U:pQS{*+B}}ZY-sz9.H">
+            <field name="INPUTNAME">АдресТекст</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="trrUFKgheH(cJYa4lqs9">
+                <field name="TEXT">Адрес</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="OS%,~*z$)tgn~XX[8:F5"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="VYLPTD`j6HuNBLDu2BeX">
+                <field name="INPUTNAME">Операция.ДатаВремя</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="KS_N6=g!8(AmeS3mSLc#">
+                    <field name="TEXT">Дата время</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="%!()#_i;/:B;e_C_n;kE"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="V$5t$%pa6=eItKtsr6%B">
+                    <field name="INPUTNAME">Операция.ПредельныйИнтервалВремени</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="?|!(a:g9TM#Q.)RI.mAF">
+                        <field name="TEXT">Предельный интервал времени</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="``O-UxlWLzkXHpXb5C]?"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="QGh6DTbxV-(AO%$294.m">
+                        <field name="INPUTNAME">Операция.Тип</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="aZ`1p:ycxe(H8+a4DQcR">
+                            <field name="TEXT">Тип операции</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="@BIA/YPr^*M!L5[bvk6o"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_value" id="01!cTfMO/.,vRmVrrSSy">
+                            <field name="INPUTNAME">Организация.ИНН</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="=gb?H1C!AB^wr;^xZyhV">
+                                <field name="TEXT">ИНН организации</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="DKGrGX*kv!4,%Y`yhZ34"></shadow>
+                            </value>
+                            <next>
+                              <block type="input_value" id="zXMS2LrfmN^fl`ZG5L,K">
+                                <field name="INPUTNAME">Организация.Название</field>
+                                <field name="ALIGN">RIGHT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="{jrUk(+y15{C~%(N-no,">
+                                    <field name="TEXT">Название организации</field>
+                                  </block>
+                                </statement>
+                                <value name="TYPE">
+                                  <shadow type="type_null" id="EUigLw#$ZG,8kX{)hgj4"></shadow>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="Fg^yIMYb`Se{aIc2C=jL" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="a.hmOJ9ZhLCwfp3C@+Jc" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="BVZQ5-+Kucjc5fDz6Ax6"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="%o3/mHaA7A7dSN}2#*FC">
+        <mutation colour="#5ba55b"></mutation>
+        <field name="HUE">120</field>
+      </block>
+    </value>
+  </block></xml>

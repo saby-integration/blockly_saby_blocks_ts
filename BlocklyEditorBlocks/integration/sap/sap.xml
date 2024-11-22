@@ -1,0 +1,169 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="sap_ref_to" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">sap_ref_to</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="~/PlnK[{OV1#k:cN7$g2">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="l^x-sQ^yf/Gp1TUI$qx*">
+            <field name="TEXT">ref to</field>
+            <next>
+              <block type="field_input" id="X:GzQbZg%[[8;D8h~Ij:">
+                <field name="TEXT"></field>
+                <field name="FIELDNAME">path</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: sap_ref_to</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="9L?f2]+?T:cVkWU5_/vU"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a5745b"></mutation>
+        <field name="HUE">20</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="sap_assign" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">sap_assign</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="?)Ca6Z+IE{H+)bjz+:!O">
+        <field name="INPUTNAME">VALUE</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">assign</field>
+            <next>
+              <block type="field_input" id="u~Kk8Uzo[*oln~Bj{T(~">
+                <field name="TEXT"></field>
+                <field name="FIELDNAME">NAME</field>
+                <next>
+                  <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                    <field name="TEXT">set</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="!|/KXjArOOLz}-NSqOnn"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: sap_assign</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="cuhY.cTAd-1l;T^?}DJH"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="iC!ZC1#K?E#Bmnb$cNbo"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#a55b80"></mutation>
+        <field name="HUE">330</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="sap_range_to_string" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">sap_range_to_string</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b2`bgL;,C;5dHf==k_Qa">
+        <field name="INPUTNAME">RANGE</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="zB7{l?wc7:^5iOkzvO0[">
+            <field name="TEXT">range to string</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="aE=!K$ZUX64Z/W|XMG=#"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: sap_range_to_string</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="1oq5,?A;D9qR5wPW*IL."></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a55b80"></mutation>
+        <field name="HUE">330</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="split" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">get_global_var</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="b2`bgL;,C;5dHf==k_Qa">
+        <field name="INPUTNAME">NAME</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="zB7{l?wc7:^5iOkzvO0[">
+            <field name="TEXT">get global var</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="aE=!K$ZUX64Z/W|XMG=#"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="vF:Q^%d8[cmn*H457q%n" deletable="false" movable="false">
+        <field name="TEXT">BlockType: get_global_var</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="]sVTzed~goL9VKJ]6J*o" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="1oq5,?A;D9qR5wPW*IL."></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="UF{C2,)J]+mj_);s/rRK">
+        <mutation colour="#a55b80"></mutation>
+        <field name="HUE">330</field>
+      </block>
+    </value>
+  </block></xml>

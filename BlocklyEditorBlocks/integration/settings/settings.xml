@@ -1,0 +1,2096 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="Mt{P#,b$!+0g,3I@9#of" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">accordion_item</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="X)s?yr)qG]^r$,wXGvbS">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="O057J=.}oM*k*9)XT/64">
+            <field name="TEXT">Пункт аккордеона</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="@Y*@v5s4j+NIN1)%yo5H">
+            <field name="INPUTNAME">id</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="D2YM:4;pB,N5O_h1!IgJ">
+                <field name="TEXT">id</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="t$6+lf$-4WT7-LM`,a`l"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="K1y*g?~f0QyV_Q$V.fZ9">
+                <field name="INPUTNAME">title</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="-#68bTtM21GfTf2eKlVZ">
+                    <field name="TEXT">title</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="Jz244he@~HofcdR-XcJb"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="*y10jk)=N/JMP@PSMwR)">
+                    <field name="INPUTNAME">icon</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="V0Mt+SQ3Y3o1_xw^LZNl">
+                        <field name="TEXT">icon</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="8]s*u-)iJ);TGtprQ(rk"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="dASB]jYC`hP^B(!(f0F$">
+                        <field name="INPUTNAME">action</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="6-O@o[)s7x9!m4d$[QDK">
+                            <field name="TEXT">action</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="egUrZ@ryXG#cR3738N[F"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_value" id="WV/Q+XxI7lq+@ao`KG;N">
+                            <field name="INPUTNAME">template</field>
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="G+uwb5IOxU0aA=1f){XA">
+                                <field name="TEXT">template</field>
+                              </block>
+                            </statement>
+                            <value name="TYPE">
+                              <shadow type="type_null" id="$gruwkhZvd4qz^{D[Vgd"></shadow>
+                            </value>
+                            <next>
+                              <block type="input_value" id="*6Zt1?Ybz})%d]YhD/dg">
+                                <field name="INPUTNAME">show</field>
+                                <field name="ALIGN">RIGHT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="bZ0h~%8czh;BC?eDp}(W">
+                                    <field name="TEXT">show</field>
+                                  </block>
+                                </statement>
+                                <value name="TYPE">
+                                  <shadow type="type_null" id="*1i7{``l2yOz=Q;)6qLX"></shadow>
+                                  <block type="type_boolean" id="uZN4ic0sb[pEJRAc6,JE"></block>
+                                </value>
+                                <next>
+                                  <block type="input_value" id="@I~uhB.s!WjY$V)G5n^*">
+                                    <field name="INPUTNAME">children</field>
+                                    <field name="ALIGN">RIGHT</field>
+                                    <statement name="FIELDS">
+                                      <block type="field_static" id="d3~7kJwG$zU+{c;)nV@r">
+                                        <field name="TEXT">children</field>
+                                      </block>
+                                    </statement>
+                                    <value name="TYPE">
+                                      <shadow type="type_null" id="VBJmmW!3aRF4C;7%zFww"></shadow>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="}:0J0l9R:4h{{?VhPr$m" deletable="false" movable="false">
+        <field name="TEXT">BlockType: accordion_item</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="zRQ3#`R]eif45h%oyj}}" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="N+M*.$,_cukW9Z!P!V@y"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="x`=z~z%R?:RIpX2__UAg">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="obj_prop_get" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">public_param_get</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="+u[loy*No~--Qw[.~n1u">
+        <field name="INPUTNAME">DEFAULT</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="oK+JdS^:pX3(?UmZDpNO">
+            <field name="TEXT">Получить настройку</field>
+            <next>
+              <block type="field_static" id="OfK$qc;[_68)Iz3?mEM)">
+                <field name="TEXT">prop</field>
+                <next>
+                  <block type="field_input" id="nn44:}ucoo3,!=ozOk!r">
+                    <field name="TEXT"></field>
+                    <field name="FIELDNAME">PATH</field>
+                    <next>
+                      <block type="field_static" id="n-,^M}ypgOUX%J[|Dj(J">
+                        <field name="TEXT">default</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="YwBa1lI}weA}K`--!SN5"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="dH8g(0);J=j4%kndT4w^" deletable="false" movable="false">
+        <field name="TEXT">BlockType: public_param_get</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="e@Jmm(#wx:!hkmu}v{/b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="{OET+-,)clXW2HcXL[(L"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="YSUyO7yfSk9n@gUQ,whT">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="Mt{P#,b$!+0g,3I@9#of" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">accordion_item2</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="X)s?yr)qG]^r$,wXGvbS">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_dropdown" id="H_}^zm/(K0=):l4MD(cc">
+            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+            <field name="FIELDNAME">_folder</field>
+            <field name="USER0">Пункт</field>
+            <field name="CPU0">elem</field>
+            <field name="USER1">Группа</field>
+            <field name="CPU1">group</field>
+            <field name="USER2">Папка</field>
+            <field name="CPU2">folder</field>
+            <next>
+              <block type="field_static" id="O057J=.}oM*k*9)XT/64">
+                <field name="TEXT">аккордеона</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="@Y*@v5s4j+NIN1)%yo5H">
+            <field name="INPUTNAME">id</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="D2YM:4;pB,N5O_h1!IgJ">
+                <field name="TEXT">id</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="t$6+lf$-4WT7-LM`,a`l"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="K1y*g?~f0QyV_Q$V.fZ9">
+                <field name="INPUTNAME">title</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="-#68bTtM21GfTf2eKlVZ">
+                    <field name="TEXT">title</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="Jz244he@~HofcdR-XcJb"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id="*y10jk)=N/JMP@PSMwR)">
+                    <field name="INPUTNAME">icon</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="V0Mt+SQ3Y3o1_xw^LZNl">
+                        <field name="TEXT">icon</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="8]s*u-)iJ);TGtprQ(rk"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="@I~uhB.s!WjY$V)G5n^*">
+                        <field name="INPUTNAME">parent</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="d3~7kJwG$zU+{c;)nV@r">
+                            <field name="TEXT">parent id</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="VBJmmW!3aRF4C;7%zFww"></shadow>
+                        </value>
+                        <next>
+                          <block type="input_dummy" id="BNL8q}IXaBZ-/z1eI20V">
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="%=;wWuA(NQ6:$Cnfx#:6">
+                                <field name="TEXT">Показывать</field>
+                                <next>
+                                  <block type="field_checkbox" id="wQP5hDt)e^XEhGdBqihX">
+                                    <field name="CHECKED">TRUE</field>
+                                    <field name="FIELDNAME">show</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="}:0J0l9R:4h{{?VhPr$m" deletable="false" movable="false">
+        <field name="TEXT">BlockType: accordion_item</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="zRQ3#`R]eif45h%oyj}}" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="N+M*.$,_cukW9Z!P!V@y"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="x`=z~z%R?:RIpX2__UAg">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="u?YUl|(k/HA;zjs+m9lE" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">view_column_date_number</field>
+    <field name="INLINE">EXT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="S/fxm?k72AQ@U|K){N1R">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="n`l|C,8ijB4/J3Vti8c{">
+            <field name="TEXT">Оформление. Столбцы. Дата и номер</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_dummy" id=":~q+jN$9j$JeZ~KjAaCa">
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="g[yBcB(}P}BDYo,?@b#r">
+                <field name="TEXT">Ширина </field>
+                <next>
+                  <block type="field_input" id="RgNxX)?`{}``f1ZPFbe?">
+                    <field name="TEXT">10</field>
+                    <field name="FIELDNAME">WIDTH</field>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="input_dummy" id="mh1@74Y+:/kD:LYd$w`)">
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="bLv5qnz7f#0}TC,Mh7D`">
+                    <field name="TEXT">Поле даты</field>
+                    <next>
+                      <block type="field_input" id="]}bM|V-J7IEmMces#%J;">
+                        <field name="TEXT">Дата</field>
+                        <field name="FIELDNAME">DATE_PROPERTY</field>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="input_dummy" id="Ulaeq:Jc0K?$c%0?!56]">
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="jiny:+Neh6^JrJqmmz:Z">
+                        <field name="TEXT">Поле номера</field>
+                        <next>
+                          <block type="field_input" id="feOF@75m4/@M6Rp+}#,:">
+                            <field name="TEXT">Номер</field>
+                            <field name="FIELDNAME">NUMBER_PROPERTY</field>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="input_dummy" id="/,i7RMN+457.YD?)+1*3">
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="cdV7F9t!%))M_DVx17GX">
+                            <field name="TEXT">Флаг включения лесенки</field>
+                            <next>
+                              <block type="field_checkbox" id="eW#6X:.J{#gVW0Bod*nd">
+                                <field name="CHECKED">TRUE</field>
+                                <field name="FIELDNAME">LADDER</field>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="input_dummy" id="5]{iXH!ws77mW-8KUzv|">
+                            <field name="ALIGN">RIGHT</field>
+                            <statement name="FIELDS">
+                              <block type="field_static" id="@*L[B|bz8?P1[Kx4cGP+">
+                                <field name="TEXT">Выравнивание по горизонтали</field>
+                                <next>
+                                  <block type="field_dropdown" id="y*^-,:W7(L0OK4oxUG|f">
+                                    <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                                    <field name="FIELDNAME">ALIGN</field>
+                                    <field name="USER0">right</field>
+                                    <field name="CPU0">1</field>
+                                    <field name="USER1">left</field>
+                                    <field name="CPU1">2</field>
+                                    <field name="USER2">center</field>
+                                    <field name="CPU2">3</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="input_dummy" id="19|/HN1A5g?i##Fm`@fO">
+                                <field name="ALIGN">RIGHT</field>
+                                <statement name="FIELDS">
+                                  <block type="field_static" id="`-#[w{L9b|RhkD5R%SxL">
+                                    <field name="TEXT">Видимость</field>
+                                    <next>
+                                      <block type="field_checkbox" id="a6Ww,x2~iwOR:y/-=8*^">
+                                        <field name="CHECKED">TRUE</field>
+                                        <field name="FIELDNAME">VISIBILITY</field>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="TYjhN-2!knLd).*oj,,5" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id=",fZ/.tECWl-R.b:NA8K~" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="$bc}P`51{Y4mV}vG}=UV"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="bD.=C66+b@hw6K;RtYU(">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="^w!{xE))y+o!F.5QyDXN" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_column_default</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="mb^)5?Bh!;-lq{W,P)al">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="U{6)FC)AC^;iq_K{/yTc">
+          <field name="TEXT">Оформление. Столбец.</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="Vndm=#=W6IurAhJ%EXBI">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="a%6Y;iX72i^P|NmaROrr">
+              <field name="TEXT">Имя</field>
+              <next>
+                <block type="field_input" id="$3oC[/IwG{0RWXB,R{s{">
+                  <field name="TEXT">Идентификатор</field>
+                  <field name="FIELDNAME">NAME</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id="sVTpI!~3G.^!W6,p}@QS">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="D!^n~VIY~)Uy;s/=znik">
+                  <field name="TEXT">Поле заголовок</field>
+                  <next>
+                    <block type="field_input" id="uKr0CLuy-vY}4j8Viym1">
+                      <field name="TEXT">Заголовок</field>
+                      <field name="FIELDNAME">TITLE</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="bmLY,!EFh#QOJNN]W9K*">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="sIb?/rLCmqThz40zlaq3">
+                      <field name="TEXT">Тип</field>
+                      <next>
+                        <block type="field_input" id="WLECBBNIsGq~NhW0h9AJ">
+                          <field name="TEXT">Тип</field>
+                          <field name="FIELDNAME">TYPE</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="input_dummy" id="}w+tq,KSEsFV7E_SzD9U">
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id=",MH#9|{-}g]Eql+ZqfL.">
+                          <field name="TEXT">Поле значения</field>
+                          <next>
+                            <block type="field_input" id="Zu83KaqQc;lv;r_2FX2P">
+                              <field name="TEXT">Значение</field>
+                              <field name="FIELDNAME">PROPERTY</field>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="input_dummy" id="LZTQ~qbKW3,d{Pyt:FUR">
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="(BcSMlIv9S-e4|i-qn!w">
+                              <field name="TEXT">Загрузить еще</field>
+                              <next>
+                                <block type="field_checkbox" id="~m55Rt:r.,c!gQ^q;dB$">
+                                  <field name="CHECKED">TRUE</field>
+                                  <field name="FIELDNAME">MORE_LOAD</field>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="input_dummy" id="MnN94)Px,+gPJ@m+phYx">
+                              <field name="ALIGN">RIGHT</field>
+                              <statement name="FIELDS">
+                                <block type="field_static" id="0G@q:Bn:gL2pCj?yhmI/">
+                                  <field name="TEXT">Видимость</field>
+                                  <next>
+                                    <block type="field_checkbox" id="rbJaPPk(=d@k$8o?7d7f">
+                                      <field name="CHECKED">TRUE</field>
+                                      <field name="FIELDNAME">VISIBILITY</field>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="input_dummy" id="P[m^2p7[y#Oa1f~l3jrU">
+                                  <field name="ALIGN">RIGHT</field>
+                                  <statement name="FIELDS">
+                                    <block type="field_static" id="**I[ik@5e:?zM^O`5C^2">
+                                      <field name="TEXT">Ширина</field>
+                                      <next>
+                                        <block type="field_input" id="Q{[#nH`MmC#JzXp.CsDm">
+                                          <field name="TEXT">10</field>
+                                          <field name="FIELDNAME">WIDTH</field>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="input_dummy" id="+4,JvjZlH*XId*,GGmm:">
+                                      <field name="ALIGN">RIGHT</field>
+                                      <statement name="FIELDS">
+                                        <block type="field_static" id="EOIkkOMDYvdfocDbcMrw">
+                                          <field name="TEXT">Выравнивание по горизонтали</field>
+                                          <next>
+                                            <block type="field_dropdown" id="EZfbG5Jyl+@Y[uS1,Ygt">
+                                              <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                                              <field name="FIELDNAME">ALIGN</field>
+                                              <field name="USER0">left</field>
+                                              <field name="CPU0">1</field>
+                                              <field name="USER1">right</field>
+                                              <field name="CPU1">2</field>
+                                              <field name="USER2">center</field>
+                                              <field name="CPU2">3</field>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="#u0lVP8B1xe2{=~iOY7$" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="|aD@wuX9#vZalWUgDa.@" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="*MGxei!G{UZU/D6A4N@F"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="05BDRHg]:_v*)RSV7Orc">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="4pXT4#a(C|5I.R=N|]68" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_column_document</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="}P}?Eh.hpANFJ1@+DvA0">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="e`$Q:g=WGUw_S5^cx8nG">
+          <field name="TEXT">Оформление. Столбец. Документ КЭДО</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="ZATQ+WU{wB5NtGqHHRGK">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="uW7sU=5%i_VGQ^4_yY2S">
+              <field name="TEXT">Поле типа</field>
+              <next>
+                <block type="field_input" id="U)-hJd_RRx.%/e3+j}97">
+                  <field name="TEXT">Тип документ</field>
+                  <field name="FIELDNAME">TYPE_PROPERTY</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id="7P!?Nv`=t5ET*ktPcO%Q">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="a|=rw=N8NVc^F6N72n+=">
+                  <field name="TEXT">Поле организации</field>
+                  <next>
+                    <block type="field_input" id=")$Vw%z1#g!hqs*y9wDYF">
+                      <field name="TEXT">Организация</field>
+                      <field name="FIELDNAME">ORG_PROPERTY</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="_ZDCm30E|z^vJK)c/)DN">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="_TWha?j)A~n[2zuIW+U:">
+                      <field name="TEXT">Поле ФИО</field>
+                      <next>
+                        <block type="field_input" id="qQB6)MnmgQ@XF7.C}l_?">
+                          <field name="TEXT">ФИО</field>
+                          <field name="FIELDNAME">PROPERTY</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="input_dummy" id="GNifZgUN%upN/(`-{VcK">
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id="m=%HIoCXRjDx]F|y7?$c">
+                          <field name="TEXT">Поле должности</field>
+                          <next>
+                            <block type="field_input" id="Ii5o?PEcS}9.7=l3_e%?">
+                              <field name="TEXT">Должность</field>
+                              <field name="FIELDNAME">POSITION_PROPERTY</field>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="input_dummy" id="s6i[*]V{7?nVQHHoC=i?">
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="0[rXpI/E]]keFTO?0b~B">
+                              <field name="TEXT">Поле информации</field>
+                              <next>
+                                <block type="field_input" id="1_I@fE6vl`goA@Nr_D!+">
+                                  <field name="TEXT">Доп Информация</field>
+                                  <field name="FIELDNAME">INFO_PROPERTY</field>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="input_dummy" id="}O=n9|kG~#[B#nT|0$fW">
+                              <field name="ALIGN">RIGHT</field>
+                              <statement name="FIELDS">
+                                <block type="field_static" id="DRCpQvvsEbb3H5tr~`*4">
+                                  <field name="TEXT">Поле этапа</field>
+                                  <next>
+                                    <block type="field_input" id="5@A!y_Y2z*G{DrO#I9G5">
+                                      <field name="TEXT">Название этапа</field>
+                                      <field name="FIELDNAME">STAGE_PROPERTY</field>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="input_dummy" id="{|PtvFhOu;*By4{5m1I(">
+                                  <field name="ALIGN">RIGHT</field>
+                                  <statement name="FIELDS">
+                                    <block type="field_static" id=":jRQ(Tb0F=Co[cjwlxK|">
+                                      <field name="TEXT">Поле вложения</field>
+                                      <next>
+                                        <block type="field_input" id="_]~{2Y^|-Ur]O^ezd#i0">
+                                          <field name="TEXT">Вложения</field>
+                                          <field name="FIELDNAME">ATTACHMENTS_PROPERTY</field>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="input_dummy" id="xIohKvrS^2CZWK``%3WA">
+                                      <field name="ALIGN">RIGHT</field>
+                                      <statement name="FIELDS">
+                                        <block type="field_static" id="2O.-9dRzb7mGbdk??G~@">
+                                          <field name="TEXT">Видимость</field>
+                                          <next>
+                                            <block type="field_checkbox" id="jJOz*x3XH+7cf:jMS(/i">
+                                              <field name="CHECKED">TRUE</field>
+                                              <field name="FIELDNAME">VISIBILITY</field>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="input_dummy" id="9ei^%@}|.u`27d,+Yo]*">
+                                          <field name="ALIGN">RIGHT</field>
+                                          <statement name="FIELDS">
+                                            <block type="field_static" id="kSou4#0v^f6zR-IVmYs2">
+                                              <field name="TEXT">Ширина</field>
+                                              <next>
+                                                <block type="field_input" id="rZ[vI`Ooj%Ig7KORhF?S">
+                                                  <field name="TEXT">10</field>
+                                                  <field name="FIELDNAME">WIDTH</field>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="6qzprJ;wUFiW~R=MxowD" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="`NlX@WYJM)Gn[^$Y!u(V" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="pE0Vgu0A}A0a@n?muhXr"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="BoQxQ0r~otD#R63oLHa)">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id=".Mi^y/w|~At{L_6V[AxZ" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_column_icon</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="C$WJ-+c$:[,U$,LVZtqC">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id=",5/q.tl+BMf$m4^Z/tn-">
+          <field name="TEXT">Оформление. Столбцы. Иконка</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="zb0D#}xS.a1[|S.I2+97">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="SGS}WV$YKv^|y%uRa~Gm">
+              <field name="TEXT">Поле со значением иконки</field>
+              <next>
+                <block type="field_input" id="DGaye=^oOwP(+wflg8OH">
+                  <field name="TEXT">Иконка</field>
+                  <field name="FIELDNAME">PROPERTY</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_value" id="y(~TUV_lJdxqxmG6ru9[">
+              <field name="INPUTNAME">NAME</field>
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="yZDFR0F:Sz1B6(kkZfgu">
+                  <field name="TEXT">Иконки</field>
+                </block>
+              </statement>
+              <value name="TYPE">
+                <shadow type="type_null" id="Cl@JD9pnTh$*^CHlc77_"></shadow>
+                <block type="type_list" id="`,kk7_IprVx[dCFQA{9i"></block>
+              </value>
+              <next>
+                <block type="input_dummy" id="{sGy;#x8:X-}9AOqkkhN">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="AC^B.,b9J3i/,12hYM1K">
+                      <field name="TEXT">Видимость</field>
+                      <next>
+                        <block type="field_checkbox" id="kJRVgJm9XME1Q$2=r(zQ">
+                          <field name="CHECKED">TRUE</field>
+                          <field name="FIELDNAME">VISIBILITY</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="input_dummy" id="j(k]fPA7#B^B:3FROYcp">
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id="~HqMA$R#any+J?kcJ#Ul">
+                          <field name="TEXT">Ширина</field>
+                          <next>
+                            <block type="field_input" id="++fOm(^F$yI9jnc/ZUM/">
+                              <field name="TEXT">10</field>
+                              <field name="FIELDNAME">WIDTH</field>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="input_dummy" id="`0wdLrOq0!h-lo`]C+lb">
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="-51MOUWd?l:Y/eU@s*#9">
+                              <field name="TEXT">Выравнивание</field>
+                              <next>
+                                <block type="field_dropdown" id="?+h]9kW[4H-yb0qOiu60">
+                                  <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                                  <field name="FIELDNAME">ALIGN</field>
+                                  <field name="USER0">left</field>
+                                  <field name="CPU0">1</field>
+                                  <field name="USER1">right</field>
+                                  <field name="CPU1">2</field>
+                                  <field name="USER2">center</field>
+                                  <field name="CPU2">3</field>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="J.!:+`|yvnssc|Z^LoN/" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="F2kS@*4kq(iDA,{blla@" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="lA|iaRM2LEaty^JiS+~h"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="J:e)H{#D`l~}Pd-l21Yb">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="iUso,P^Q%pr-CxxcTxI}" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_column_employee</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="KW9~$?xYkV-Nd#YR;cD$">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="j2hNTT2$tlHfw{S[E4yq">
+          <field name="TEXT">Оформление. Столбец. сотрудник / подразделение</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="_;~z:nl4EI!XgvKb..*S">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="uKr4LU)8Pmu}!l%Yc0|Y">
+              <field name="TEXT">Поле организация</field>
+              <next>
+                <block type="field_input" id="BD4y-mE?#I|1njq`_ax`">
+                  <field name="TEXT">Организация</field>
+                  <field name="FIELDNAME">ORG_PROPERTY</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id="vca8eZ6d3957^O9Ek*/T">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="DGQB:yvzyQd;DY5c9JPP">
+                  <field name="TEXT">Поле ФИО </field>
+                  <next>
+                    <block type="field_input" id="no?!*(zU!*:s#_NRjU_.">
+                      <field name="TEXT">ФИО</field>
+                      <field name="FIELDNAME">PROPERTY</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="8K?a.cB@WIRhGKC.);e=">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="HLxdrX@U9RlH2`ZY=??E">
+                      <field name="TEXT">Поле должность</field>
+                      <next>
+                        <block type="field_input" id="InUk;]L.RAb%ktO)SWHU">
+                          <field name="TEXT">Должность</field>
+                          <field name="FIELDNAME">POSITION_PROPERTY</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="input_dummy" id="j,N+(?I6]!+fTVZ)/sq,">
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id="IBSz@%`V0%~l@{J;xNrA">
+                          <field name="TEXT">Поле телефон</field>
+                          <next>
+                            <block type="field_input" id="v7q`kn*1n05X{8I9-O80">
+                              <field name="TEXT">Телефон</field>
+                              <field name="FIELDNAME">TEL_PROPERTY</field>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="input_dummy" id="[o(BeL`5[~ZltqK)()0_">
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="}f+{A$U9e+]FuZ2f#RY-">
+                              <field name="TEXT">Поле департамент</field>
+                              <next>
+                                <block type="field_input" id="A*7V+4!z!PN;3QI1}QO}">
+                                  <field name="TEXT">Департамент</field>
+                                  <field name="FIELDNAME">DEPARTMENT_PROPERTY</field>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="input_dummy" id="Al{BDJ9k}.nMZfQDK!sH">
+                              <field name="ALIGN">RIGHT</field>
+                              <statement name="FIELDS">
+                                <block type="field_static" id=":E=N4eD{a(Gv,0,-}B~r">
+                                  <field name="TEXT">Видимость</field>
+                                  <next>
+                                    <block type="field_checkbox" id="_^Zt?$H!-s$Cxo;[Z}y*">
+                                      <field name="CHECKED">TRUE</field>
+                                      <field name="FIELDNAME">VISIBILITY</field>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="input_dummy" id="[X(w2GdUU?wK{czJ!M2c">
+                                  <field name="ALIGN">RIGHT</field>
+                                  <statement name="FIELDS">
+                                    <block type="field_static" id="8n!|/r2WE%@SbGLkn#K.">
+                                      <field name="TEXT">Видимость</field>
+                                      <next>
+                                        <block type="field_dropdown" id="DR}:2f]:PG,A`WB3-SKg">
+                                          <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                                          <field name="FIELDNAME">ALIGN</field>
+                                          <field name="USER0">left</field>
+                                          <field name="CPU0">1</field>
+                                          <field name="USER1">right</field>
+                                          <field name="CPU1">2</field>
+                                          <field name="USER2">center</field>
+                                          <field name="CPU2">3</field>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="%0liWlCehqwUer?Sx@6Y" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="5Wni0PY7!69d:+`DG@_]" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="P%l9~5Z/zI12O{7_HEzd"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="wD_ZBMASF:a%E5i=.ixM">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="~6eB)MY670=QAP#v]@MU" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_filter_period</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="@{[,o[!(n%-`:(e.,e6e">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="O[ah3x?iwQ1r_}cfX$0:">
+          <field name="TEXT">Оформление. Фильтры. Период.</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="5%-3gxGabtPFa[N8.3-#">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="KruDuc3el~dR5Ze{GWt{">
+              <field name="TEXT">Название</field>
+              <next>
+                <block type="field_input" id="|gT0|cPV2I~[**1,Hw1M">
+                  <field name="TEXT">Наименование фильтра</field>
+                  <field name="FIELDNAME">NAME</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id="fGys@@ec-(tJD(1*}S6s">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="Z+Loj`f8MNa%.csG:XzI">
+                  <field name="TEXT">Заголовок</field>
+                  <next>
+                    <block type="field_input" id="_mltU{8*.H}=Z#d4ig^i">
+                      <field name="TEXT">Заголовок</field>
+                      <field name="FIELDNAME">TITLE</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="+DYJE=^sls_?^w~FgV!A">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="_Dc_#D,%B-UZ@!uS,N3G">
+                      <field name="TEXT">Знач по умолчанию</field>
+                      <next>
+                        <block type="field_dropdown" id=":+KK,L/7z%-#pw3uRG/0">
+                          <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                          <field name="FIELDNAME">DEFAULT_VALUE</field>
+                          <field name="USER0">за весь период</field>
+                          <field name="CPU0">0</field>
+                          <field name="USER1">за сегодня</field>
+                          <field name="CPU1">40</field>
+                          <field name="USER2">за последний месяц</field>
+                          <field name="CPU2">30</field>
+                          <field name="USER3">за последние полгода</field>
+                          <field name="CPU3">20</field>
+                          <field name="USER4">за последний год</field>
+                          <field name="CPU4">10</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="4NkT-_Gd-1kl`o*]^,Lk" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="G;||ur8~dykrV:712mt7" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="Z$KqrHj@[v_6cHvXGU9Z"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="nZ.Fr*N@#CP),`IRE@(7">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="7T440?227^9i[;J]uH%7" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_filter_string</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="}nOzXvYyIIzjP7XXUqaj">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="_/k+69(D+[0h`6#AO(^u">
+          <field name="TEXT">Оформление. Фильтры. Строка</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="4tj|VI9d$dxEdWX^qi#q">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="rfHrnwz#J8E*[l=7/I2~">
+              <field name="TEXT">Название</field>
+              <next>
+                <block type="field_input" id="40{RBl5oi3sQ,l.;7d:t">
+                  <field name="TEXT">Название</field>
+                  <field name="FIELDNAME">NAME</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id="RgNzi7RQp`gU9njat8X+">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="rp/WqP~^s),Ul6lbE3:G">
+                  <field name="TEXT">Заголовок </field>
+                  <next>
+                    <block type="field_input" id="X|JE3j5[`!T%lA9i(jw/">
+                      <field name="TEXT">Заголовок</field>
+                      <field name="FIELDNAME">TITLE</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="[`nmmxb6i58r(:v6,(O%">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="Z[`m$4E)vl)FteX.([DY">
+                      <field name="TEXT">Значение по умолчанию</field>
+                      <next>
+                        <block type="field_input" id="C$}qgZN0_EF5Kn]Sz90)">
+                          <field name="TEXT"></field>
+                          <field name="FIELDNAME">DEFAULT_VALUE</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="_1yY4|,|A@Kg=*,bsXN=" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="k=bQ.c8TC{mZc5[[8q[#" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="?_aDUG([kJfXTGEP*#DP"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="$#9uU@+hK#we^p8/{dw!">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="Z.%ww@Zz2PRCnj$pO`uL" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_filter_link</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="oT!LAISX/,HTZs9Pi=J$">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="V9?;y[*u~uB0Qu??-}b-">
+          <field name="TEXT">Оформление. Фильтр. Поле связи</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="pp8Zd?U]bsKZlQL#BBMy">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="Ms11%}vhTEx,ro:/Kjj-">
+              <field name="TEXT">Название</field>
+              <next>
+                <block type="field_input" id="aEpa%pj9Z,ZH$y$6pz%3">
+                  <field name="TEXT">Наим фильтра</field>
+                  <field name="FIELDNAME">NAME</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id=",LML4puD4Gf`Dj@aLXM|">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="|t:]k]lLOQS`_mjRSaYw">
+                  <field name="TEXT">Заголовок</field>
+                  <next>
+                    <block type="field_input" id="r3~t2}[c{+!$QzHhi-)@">
+                      <field name="TEXT">Заголовок</field>
+                      <field name="FIELDNAME">TITLE</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="[y(bM?4Tk5Fh*1vW(3is">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="!tTNz49+QD!b,hpm01y@">
+                      <field name="TEXT">Настройка</field>
+                      <next>
+                        <block type="field_input" id="4PlZJ6PrPol7nl%NW9i!">
+                          <field name="TEXT">Название настройки</field>
+                          <field name="FIELDNAME">ALGORITHM</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="input_dummy" id="~7-~~`5PAo*1tvU9fpA=">
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id="/$o2lPX.;~RtkYdpG,Rk">
+                          <field name="TEXT">Множественный выбор</field>
+                          <next>
+                            <block type="field_checkbox" id="FSA0]7z3U3z9EvQ;aXPT">
+                              <field name="CHECKED">TRUE</field>
+                              <field name="FIELDNAME">MULTI_SELECT</field>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="input_dummy" id="+g($JNUHaA2ocY,rneWP">
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="Q@C7M}A+PbWM@`+A7,BZ">
+                              <field name="TEXT">Поле отображения</field>
+                              <next>
+                                <block type="field_input" id="vf=0y[[bhWJzEW6KOFDM">
+                                  <field name="TEXT">Название</field>
+                                  <field name="FIELDNAME">DISPLAY_PROPERTY</field>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="input_dummy" id="o#*hU:,RiSYD6@0u*^W|">
+                              <field name="ALIGN">RIGHT</field>
+                              <statement name="FIELDS">
+                                <block type="field_static" id="PmXOF:eZ/!YlyP1KAtB?">
+                                  <field name="TEXT">Поле ключа</field>
+                                  <next>
+                                    <block type="field_input" id="l2hZ4bF7nzeo3^_5Y/LV">
+                                      <field name="TEXT">ИдИС</field>
+                                      <field name="FIELDNAME">KEY_PROPERTY</field>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="input_value" id="DO=W}7KOj^AjDdiYHVPO">
+                                  <field name="INPUTNAME">DEFAULT_VALUE</field>
+                                  <field name="ALIGN">RIGHT</field>
+                                  <statement name="FIELDS">
+                                    <block type="field_static" id=",PV/h:H[qaEr,.@,BQeo">
+                                      <field name="TEXT">Значение по умолчанию</field>
+                                    </block>
+                                  </statement>
+                                  <value name="TYPE">
+                                    <shadow type="type_null" id="+U@_KsrjD{rH}j_97VQ@"></shadow>
+                                    <block type="type_null" id="KD[zCA%24.4KJMj72Cc4"></block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="NXC{`Uk$6guU[_5pB8d!" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="p}Wd!Yh)y5!`CnMPKj3=" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id=")*.c%wx%!PRi?@EvcDgJ"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="BHI^!XF^c/LZm!8XwW18">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="[b)`]n$]Fgb|,2PG2S]D" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_filter_number</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="awko.[@873{4g[4.*.x%">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="}PVH5/e~?S+v96nlL1)w">
+          <field name="TEXT">Оформление. Фильтры. Число</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="fq!s!AU9UVo!b2C`Y8s[">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="#D.14eZ^@0JWe0l-vwi}">
+              <field name="TEXT">Название</field>
+              <next>
+                <block type="field_input" id="Oscp,6Q1:FE{dm_nChW;">
+                  <field name="TEXT">Название фильтра</field>
+                  <field name="FIELDNAME">NAME</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id="5K,6z+KabjfPn,z~r2nU">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="0/at?U|UrUZ}N|D`!TEo">
+                  <field name="TEXT">Заголовок</field>
+                  <next>
+                    <block type="field_input" id="31p]G?ojExUGf^smvv2n">
+                      <field name="TEXT">Заголовок</field>
+                      <field name="FIELDNAME">TITLE</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="]MamxaUg9yV8tG=.-]Q;">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="oF8A.L2K)^xlz5v~NM}8">
+                      <field name="TEXT">Значение по умолчанию</field>
+                      <next>
+                        <block type="field_input" id="?TjLE!+1?_{11.hruQUp">
+                          <field name="TEXT">Заголовок</field>
+                          <field name="FIELDNAME">DEFAULT_VALUE</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="ORC:0o~;NK-}c_t@PQe2" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="9jGwyj%P9$e,|VNI#ft=" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id=")`HY;/}9ZNUpnIC~5z0f"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="`+:(j0hJ6RlV]F#eG$CK">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="#q2DETf3dDE4Rni@e2p`" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_list_flat</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="hZ(6J#AD$x)gc4{Wx8dO">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="d9|5x)MvaOC3~EVJE:tl">
+          <field name="TEXT">Оформление. Списки. Плоский</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_value" id="wH@/CdQ%:n7mwlbP2lR_">
+          <field name="INPUTNAME">COLUMNS</field>
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="iTjhF7;btg]b5Kp=s(D!">
+              <field name="TEXT">Столбцы</field>
+            </block>
+          </statement>
+          <value name="TYPE">
+            <shadow type="type_null" id="O^=$6R}j7F;QI#Ejz)VY"></shadow>
+            <block type="type_list" id="3QiWA?|M=;ZF_IMcP]/Z"></block>
+          </value>
+          <next>
+            <block type="input_value" id="*l]{yCrKOU#6P^=cKLrI">
+              <field name="INPUTNAME">FILTER</field>
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="6`f(~:22*M518T@i^d5-">
+                  <field name="TEXT">Фильтр</field>
+                </block>
+              </statement>
+              <value name="TYPE">
+                <shadow type="type_null" id="O^=$6R}j7F;QI#Ejz)VY"></shadow>
+                <block type="type_list" id="soS+#N$#gO.#{@lZ]V|m"></block>
+              </value>
+              <next>
+                <block type="input_value" id="{Ac.;)TsP-3GcE(7[WeE">
+                  <field name="INPUTNAME">TOOLBAR</field>
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="_spoQeL(~TH;FGEK.B,e">
+                      <field name="TEXT">Команды</field>
+                    </block>
+                  </statement>
+                  <value name="TYPE">
+                    <shadow type="type_null" id="O^=$6R}j7F;QI#Ejz)VY"></shadow>
+                    <block type="type_list" id="dWM|3|KF6kx.8KtLD2j@"></block>
+                  </value>
+                  <next>
+                    <block type="input_dummy" id="Y@3)-a3?xY{S(TX)ZTAc">
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id="Bk|?%,L$0w;J2~r4(e^B">
+                          <field name="TEXT">Поле с идентификатором записи</field>
+                          <next>
+                            <block type="field_input" id="SoDJkkSB)Wi265BgMp_P">
+                              <field name="TEXT">Ид</field>
+                              <field name="FIELDNAME">KEY_PROPERTY</field>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="input_dummy" id="!5?w[,J)%KT-o^`VQI.S">
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="QRO515]2f$$lWKR@j;,3">
+                              <field name="TEXT">Размер страницы</field>
+                              <next>
+                                <block type="field_input" id=";b~]gT5HAt*P86`3Hr(b">
+                                  <field name="TEXT">25</field>
+                                  <field name="FIELDNAME">PAGE_SIZE</field>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="input_dummy" id="~ryq];r-x{9^Xf`?V?I0">
+                              <field name="ALIGN">RIGHT</field>
+                              <statement name="FIELDS">
+                                <block type="field_static" id="2RF-l/V6-^IOem-{v_G5">
+                                  <field name="TEXT">Форма по умолчанию</field>
+                                  <next>
+                                    <block type="field_input" id="11NSb3/mb)*tp51Ms20-">
+                                      <field name="TEXT"></field>
+                                      <field name="FIELDNAME">FORM</field>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="OPVP_/sJgOl2os*JcWRx" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="?yXBoq|o6[%NMWVG.b93" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="F$AX?$hFhtEX{MHZEs[r"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="sDUe676o}6;%Y[sHRJ{v">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="I,E^`G:{2iWUN4J=IXt`" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_list_hierarchical</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="gABruvPQzo@9C5Q_wh3l">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="|Anw5[rhNtUaW_:X_if5">
+          <field name="TEXT">Оформление. Списки. Иерархический</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_value" id="m!O3x}RH}|+%X0EOsckN">
+          <field name="INPUTNAME">COLUMNS</field>
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="U_i0qx5ev|=xa={3280C">
+              <field name="TEXT">Столбцы</field>
+            </block>
+          </statement>
+          <value name="TYPE">
+            <shadow type="type_null" id="E+}JL=vm51h*qAK6O%82"></shadow>
+            <block type="type_list" id="Qfa.QV$]DP68,UYYg)N("></block>
+          </value>
+          <next>
+            <block type="input_dummy" id="(Sg#}{5})/6f%;WoPh:f">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="m;LF_`slVR@OD^P=oJ{2">
+                  <field name="TEXT">Поле с идентификатором родителя</field>
+                  <next>
+                    <block type="field_input" id="c(OoiNzC/p~5!t1/WkGP">
+                      <field name="TEXT"></field>
+                      <field name="FIELDNAME">PARENT_PROPERTY</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="AgZhM7{SnRLV]LALDGa1">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="!)NRxcoIeY~.))Yp:-C1">
+                      <field name="TEXT">Поле с признаком папки</field>
+                      <next>
+                        <block type="field_input" id="mEL_ru1aI|2TrR_+5XoI">
+                          <field name="TEXT"></field>
+                          <field name="FIELDNAME">NODE_PROPERTY</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="input_value" id="t39E39gV^[aP]{EFc0JE">
+                      <field name="INPUTNAME">FILTER</field>
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id="CF0}Djl!g%c$5.#QeYtX">
+                          <field name="TEXT">Фильтр</field>
+                        </block>
+                      </statement>
+                      <value name="TYPE">
+                        <shadow type="type_null" id="E+}JL=vm51h*qAK6O%82"></shadow>
+                        <block type="type_list" id="D]JtWF#r_bjl3TCSyEDh"></block>
+                      </value>
+                      <next>
+                        <block type="input_value" id="0f+MMR.,boKS#/V{COT.">
+                          <field name="INPUTNAME">TOOLBAR</field>
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="tt:`$X6c;PyPuV3q|l=|">
+                              <field name="TEXT">Команды</field>
+                            </block>
+                          </statement>
+                          <value name="TYPE">
+                            <shadow type="type_null" id="E+}JL=vm51h*qAK6O%82"></shadow>
+                            <block type="type_list" id="xqv@{yui+Bj|K_3.Df_q"></block>
+                          </value>
+                          <next>
+                            <block type="input_dummy" id="Zx(z.2#ii~z5mA^@0~V~">
+                              <field name="ALIGN">RIGHT</field>
+                              <statement name="FIELDS">
+                                <block type="field_static" id="xj~TXf{69WQ4bASYtPCM">
+                                  <field name="TEXT">Поле с идентификатором записи</field>
+                                  <next>
+                                    <block type="field_input" id="1nD5|[KSB%4JC+sI`8](">
+                                      <field name="TEXT">Ид</field>
+                                      <field name="FIELDNAME">KEY_PROPERTY</field>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="input_dummy" id="s(G%UkpB#ZweJ~?1rMA+">
+                                  <field name="ALIGN">RIGHT</field>
+                                  <statement name="FIELDS">
+                                    <block type="field_static" id="+EKN.8MO%Bl,JbsvSa;3">
+                                      <field name="TEXT">Размер страницы</field>
+                                      <next>
+                                        <block type="field_input" id="D57ikEBd(cnHI;gI:bPb">
+                                          <field name="TEXT">25</field>
+                                          <field name="FIELDNAME">PAGE_SIZE</field>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="input_dummy" id=".Yx`e~HQF:Z2bx|,gepq">
+                                      <field name="ALIGN">RIGHT</field>
+                                      <statement name="FIELDS">
+                                        <block type="field_static" id="YyZeFbB24gF[GBA3Co$$">
+                                          <field name="TEXT">Форма</field>
+                                          <next>
+                                            <block type="field_input" id="Mlt0z!]?@)%_BN%v{c3L">
+                                              <field name="TEXT"></field>
+                                              <field name="FIELDNAME">FORM</field>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="2c[_C@XCISs.?M2_y}80" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="[w@]!Ikz#gM;p+*UTJlI" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="Rh@zGFWOI7f;F?C]!vq_"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="qcL-Tp(}2!!+l9P21H{.">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="O(p]XIde@~OBH5qz9$lU" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_list_tasks</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="4(DnYL-TLtUJ0!18-z|T">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="GEcC}(b4=BT@.Xn2+5-;">
+          <field name="TEXT">Оформление. Списки. Задачи</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id=")DNF!-rmTKW#p.djCF!c">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="ewxY[_18M-DiJBXe-1Z9">
+              <field name="TEXT">Тип задач</field>
+              <next>
+                <block type="field_dropdown" id="4BD)aus{[~Q5YJDj`Bz%">
+                  <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+                  <field name="FIELDNAME">NAME</field>
+                  <field name="USER0">На мне</field>
+                  <field name="CPU0">0</field>
+                  <field name="USER1">От меня</field>
+                  <field name="CPU1">1</field>
+                  <field name="USER2">Разобрать</field>
+                  <field name="CPU2">2</field>
+                  <field name="USER3">Выполненные</field>
+                  <field name="CPU3">3</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="=,VC}{b-()rkG},P#T1k" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="q[-^QW1KbQ@QgVC647*:" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="sVcf;%8DB_L[zF5QmP,]"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="YJdhR6qe~GW!6#IATJq$">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="L]98N:_./ZyO*?~1BH4J" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_list_master_detal</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="5+_m)IezGR^GY%5od:,m">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="7{Hw8fq?B?x7Mz-:b=zc">
+          <field name="TEXT">Оформление. Списки. Мастер деталь</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_value" id="*IY~eVt2xVPHmABtA%S,">
+          <field name="INPUTNAME">MASTER_TEMPLATE</field>
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="yYgI/FdDH`YlD3FOd@O_">
+              <field name="TEXT">Шаблон мастера</field>
+            </block>
+          </statement>
+          <value name="TYPE">
+            <shadow type="type_null" id="@MQdGRG)Dqw)SjUUu0qY"></shadow>
+            <block type="type_null" id="eM|M{wrIC@GL@]hju+uB"></block>
+          </value>
+          <next>
+            <block type="input_value" id="f`O)U6nHV6WrTUF]62/K">
+              <field name="INPUTNAME">DETAIL_TEMPLATE</field>
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="2Y*4KL:k0$jPb}rMsH-A">
+                  <field name="TEXT">Шаблон деталя</field>
+                </block>
+              </statement>
+              <value name="TYPE">
+                <shadow type="type_null" id="@MQdGRG)Dqw)SjUUu0qY"></shadow>
+                <block type="type_null" id="}+Rc{5mK?_fEmw$=qB.j"></block>
+              </value>
+              <next>
+                <block type="input_dummy" id="Qgs~uXl$[6NY:I~,5ixb">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="+OB5Q]Zl]]k0n8p5=R,^">
+                      <field name="TEXT">Поле фильтра</field>
+                      <next>
+                        <block type="field_input" id=")W8SJtn-CCj2?fkvL5t1">
+                          <field name="TEXT">Фильтр</field>
+                          <field name="FIELDNAME">NAME</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="zX([n-NrJtWsAO5yq/Sp" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="V_2I-yZHN[HvOsa9F?C)" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="{5,G/7U$7HTIm*yD@hiq"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="jzehO;Q%wl+!Fh+79X~z">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="4pXT4#a(C|5I.R=N|]68" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_column_document_kedo</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id="}P}?Eh.hpANFJ1@+DvA0">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="e`$Q:g=WGUw_S5^cx8nG">
+          <field name="TEXT">Оформление. Столбец. Документ КЭДО</field>
+        </block>
+      </statement>
+      <next>
+        <block type="input_dummy" id="ZATQ+WU{wB5NtGqHHRGK">
+          <field name="ALIGN">RIGHT</field>
+          <statement name="FIELDS">
+            <block type="field_static" id="uW7sU=5%i_VGQ^4_yY2S">
+              <field name="TEXT">Поле типа</field>
+              <next>
+                <block type="field_input" id="U)-hJd_RRx.%/e3+j}97">
+                  <field name="TEXT">Тип документ</field>
+                  <field name="FIELDNAME">TYPE_PROPERTY</field>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="input_dummy" id="7P!?Nv`=t5ET*ktPcO%Q">
+              <field name="ALIGN">RIGHT</field>
+              <statement name="FIELDS">
+                <block type="field_static" id="a|=rw=N8NVc^F6N72n+=">
+                  <field name="TEXT">Поле организации</field>
+                  <next>
+                    <block type="field_input" id=")$Vw%z1#g!hqs*y9wDYF">
+                      <field name="TEXT">Организация</field>
+                      <field name="FIELDNAME">ORG_PROPERTY</field>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="input_dummy" id="_ZDCm30E|z^vJK)c/)DN">
+                  <field name="ALIGN">RIGHT</field>
+                  <statement name="FIELDS">
+                    <block type="field_static" id="_TWha?j)A~n[2zuIW+U:">
+                      <field name="TEXT">Поле ФИО</field>
+                      <next>
+                        <block type="field_input" id="qQB6)MnmgQ@XF7.C}l_?">
+                          <field name="TEXT">ФИО</field>
+                          <field name="FIELDNAME">PROPERTY</field>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="input_dummy" id="GNifZgUN%upN/(`-{VcK">
+                      <field name="ALIGN">RIGHT</field>
+                      <statement name="FIELDS">
+                        <block type="field_static" id="m=%HIoCXRjDx]F|y7?$c">
+                          <field name="TEXT">Поле должности</field>
+                          <next>
+                            <block type="field_input" id="Ii5o?PEcS}9.7=l3_e%?">
+                              <field name="TEXT">Должность</field>
+                              <field name="FIELDNAME">POSITION_PROPERTY</field>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="input_dummy" id="s6i[*]V{7?nVQHHoC=i?">
+                          <field name="ALIGN">RIGHT</field>
+                          <statement name="FIELDS">
+                            <block type="field_static" id="0[rXpI/E]]keFTO?0b~B">
+                              <field name="TEXT">Поле информации</field>
+                              <next>
+                                <block type="field_input" id="1_I@fE6vl`goA@Nr_D!+">
+                                  <field name="TEXT">Доп Информация</field>
+                                  <field name="FIELDNAME">INFO_PROPERTY</field>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="input_dummy" id="}O=n9|kG~#[B#nT|0$fW">
+                              <field name="ALIGN">RIGHT</field>
+                              <statement name="FIELDS">
+                                <block type="field_static" id="DRCpQvvsEbb3H5tr~`*4">
+                                  <field name="TEXT">Поле этапа</field>
+                                  <next>
+                                    <block type="field_input" id="5@A!y_Y2z*G{DrO#I9G5">
+                                      <field name="TEXT">Название этапа</field>
+                                      <field name="FIELDNAME">STAGE_PROPERTY</field>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                              <next>
+                                <block type="input_dummy" id="{|PtvFhOu;*By4{5m1I(">
+                                  <field name="ALIGN">RIGHT</field>
+                                  <statement name="FIELDS">
+                                    <block type="field_static" id=":jRQ(Tb0F=Co[cjwlxK|">
+                                      <field name="TEXT">Поле вложения</field>
+                                      <next>
+                                        <block type="field_input" id="_]~{2Y^|-Ur]O^ezd#i0">
+                                          <field name="TEXT">Вложения</field>
+                                          <field name="FIELDNAME">ATTACHMENTS_PROPERTY</field>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </statement>
+                                  <next>
+                                    <block type="input_dummy" id="xIohKvrS^2CZWK``%3WA">
+                                      <field name="ALIGN">RIGHT</field>
+                                      <statement name="FIELDS">
+                                        <block type="field_static" id="2O.-9dRzb7mGbdk??G~@">
+                                          <field name="TEXT">Видимость</field>
+                                          <next>
+                                            <block type="field_checkbox" id="jJOz*x3XH+7cf:jMS(/i">
+                                              <field name="CHECKED">TRUE</field>
+                                              <field name="FIELDNAME">VISIBILITY</field>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </statement>
+                                      <next>
+                                        <block type="input_dummy" id="9ei^%@}|.u`27d,+Yo]*">
+                                          <field name="ALIGN">RIGHT</field>
+                                          <statement name="FIELDS">
+                                            <block type="field_static" id="kSou4#0v^f6zR-IVmYs2">
+                                              <field name="TEXT">Ширина</field>
+                                              <next>
+                                                <block type="field_input" id="rZ[vI`Ooj%Ig7KORhF?S">
+                                                  <field name="TEXT">10</field>
+                                                  <field name="FIELDNAME">WIDTH</field>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </statement>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="6qzprJ;wUFiW~R=MxowD" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="`NlX@WYJM)Gn[^$Y!u(V" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="pE0Vgu0A}A0a@n?muhXr"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="BoQxQ0r~otD#R63oLHa)">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block><block type="factory_base" id="?!7{pc(#Ml3l/K-|A70`" deletable="false" movable="false" x="10" y="10">
+  <mutation connections="LEFT"></mutation>
+  <field name="NAME">view_toolbar_search</field>
+  <field name="INLINE">EXT</field>
+  <field name="CONNECTIONS">LEFT</field>
+  <statement name="INPUTS">
+    <block type="input_dummy" id=".`[0T*?h_:|G()[p7R2R">
+      <field name="ALIGN">LEFT</field>
+      <statement name="FIELDS">
+        <block type="field_static" id="CE._=Y[RYCDFv2+11u+6">
+          <field name="TEXT">Оформление. Тулбар. Поле поиска</field>
+        </block>
+      </statement>
+    </block>
+  </statement>
+  <value name="TOOLTIP">
+    <block type="text" id="z8tXvT8tHwk}YtFT0=DT" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="HELPURL">
+    <block type="text" id="q:otyn?E+Z`S?pdQ;vH$" deletable="false" movable="false">
+      <field name="TEXT"></field>
+    </block>
+  </value>
+  <value name="OUTPUTTYPE">
+    <shadow type="type_null" id="khLj^Jn0A.X=ouY!Z(lp"></shadow>
+  </value>
+  <value name="COLOUR">
+    <block type="colour_hue" id="z/kx-i|SV[TehaJTS]+r">
+      <mutation colour="#5b67a5"></mutation>
+      <field name="HUE">230</field>
+    </block>
+  </value>
+</block></xml>

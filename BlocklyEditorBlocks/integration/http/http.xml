@@ -1,0 +1,157 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="sJ%yu^FYjS2z3/9#!wxE" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">http_request</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="P4mlRJ*M+K,e:OLB9qeQ">
+        <field name="INPUTNAME">METHOD</field>
+        <field name="ALIGN">RIGHT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="QX/TYL%bsM=SoL;nBF@L">
+            <field name="TEXT">http request</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id=":suz95G7jr0/eT;eS;9:"></shadow>
+        </value>
+        <next>
+          <block type="input_value" id="DlqF4w@xJoX;nA$rGu`H">
+            <field name="INPUTNAME">URL</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="`-xGpokdhsz-TRyx]V4|">
+                <field name="TEXT">url</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id="0Fc+Rq8_ce=@4_z~b$53"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="0@*Oagm?QW#^`iYib($H">
+                <field name="INPUTNAME">HEADERS</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="X7K03w]{kLw0P0(u`Qvy">
+                    <field name="TEXT">headers</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="C:fIz^rRa.VyqFR(^;7#"></shadow>
+                </value>
+                <next>
+                  <block type="input_value" id=":kxM-p+zVII|U8DViIj,">
+                    <field name="INPUTNAME">PARAMS</field>
+                    <field name="ALIGN">RIGHT</field>
+                    <statement name="FIELDS">
+                      <block type="field_static" id="Suk_w-7xA7pms.-Y}cvW">
+                        <field name="TEXT">params</field>
+                      </block>
+                    </statement>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="+Fg(q:=[Fha.x?k8[BZm"></shadow>
+                    </value>
+                    <next>
+                      <block type="input_value" id="lYk%}O^%H9$:C2k+-c?y">
+                        <field name="INPUTNAME">BODY</field>
+                        <field name="ALIGN">RIGHT</field>
+                        <statement name="FIELDS">
+                          <block type="field_static" id="c9U_z.(|_G$2KD6U8pg#">
+                            <field name="TEXT">body</field>
+                          </block>
+                        </statement>
+                        <value name="TYPE">
+                          <shadow type="type_null" id="0U?m_*rSP)I6-eq%n~u}"></shadow>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="||.h]J5Y$7D_OI$}z=XL" deletable="false" movable="false">
+        <field name="TEXT">BlockType: http_request</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="k`=Qdp6HtwnxO%Ui46#b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="14J%99$~j9gzVO!zzQo3"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="O24`8X`KiF[vbOoM!NuH">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="sJ%yu^FYjS2z3/9#!wxE" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">http_header_basic_auth</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="bx_3Jo)YAJA3Eag,[oKo">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="t~pUjsbJ1%VH`:6+3jjZ">
+            <field name="TEXT">Header BasicAuth</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="P4mlRJ*M+K,e:OLB9qeQ">
+            <field name="INPUTNAME">LOGIN</field>
+            <field name="ALIGN">RIGHT</field>
+            <statement name="FIELDS">
+              <block type="field_static" id="W0_;1uC^)!{7v%cLYsuB">
+                <field name="TEXT">login</field>
+              </block>
+            </statement>
+            <value name="TYPE">
+              <shadow type="type_null" id=":suz95G7jr0/eT;eS;9:"></shadow>
+            </value>
+            <next>
+              <block type="input_value" id="0@*Oagm?QW#^`iYib($H">
+                <field name="INPUTNAME">PASSWORD</field>
+                <field name="ALIGN">RIGHT</field>
+                <statement name="FIELDS">
+                  <block type="field_static" id="X7K03w]{kLw0P0(u`Qvy">
+                    <field name="TEXT">password</field>
+                  </block>
+                </statement>
+                <value name="TYPE">
+                  <shadow type="type_null" id="C:fIz^rRa.VyqFR(^;7#"></shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="||.h]J5Y$7D_OI$}z=XL" deletable="false" movable="false">
+        <field name="TEXT">BlockType: http_header_basic_auth</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="k`=Qdp6HtwnxO%Ui46#b" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="14J%99$~j9gzVO!zzQo3"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="O24`8X`KiF[vbOoM!NuH">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block></xml>
